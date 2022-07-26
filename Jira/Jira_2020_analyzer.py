@@ -9,6 +9,7 @@ from jira import JIRA
 
 
 LJUST=12
+FILE_PATH_JIRA_CERT=r"D:\work_platform\Jira\auth_amt"
 
 # NOTE: The parameter 'displayName' (Assignee Name) could be changed for time to time
 # Just print out the fields value in order to find out what the parameter name is
@@ -204,7 +205,7 @@ if __name__ == "__main__":
     auth_data = []
     pass_data = []
 
-    search_auth_file(r"D:\work_platform\Jira\auth_amt", auth_data, pass_data)
+    search_auth_file(FILE_PATH_JIRA_CERT, auth_data, pass_data)
     
 
     jira = connect_to_jira(auth_data[0], pass_data[0])
