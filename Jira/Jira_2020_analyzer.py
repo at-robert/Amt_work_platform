@@ -220,7 +220,7 @@ if __name__ == "__main__":
 
 
     # Gaming Monitor NPI
-    para_fw3_1 = [['G32QC2CSOT',14,''],['M32QC2CSOT',14,''],['ASUSPG48UQ',14,'']]
+    para_fw3_1 = [['ASUSPG48UQ',14,'']]
     para_fw3_2 = [['TWJVC50G22',16,''],['TWJVC65G22',16,''],['TWJVC75G22',16,''],['TWJVC32G22',16,'']]
     para_other = [['NOVATEK',12,'PG48UQ']]
 
