@@ -1,0 +1,35 @@
+{
+    "models":
+    [
+        {
+            "group":"FW3_1",
+            "name":"ASUSPG48UQ",
+            "space":"14",
+            "subg":""
+        },
+        {
+            "group":"FW3_2",
+            "name":"TWJVC50G22",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_2",
+            "name":"TWJVC65G22",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"Other",
+            "name":"NOVATEK",
+            "space":"12",
+            "subg":"PG48UQ"
+        },
+        {
+            "group":"Other",
+            "name":"NOVATEK",
+            "space":"12",
+            "subg":"VG32UQA1A"
+        }
+    ]
+}

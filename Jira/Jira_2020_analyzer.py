@@ -6,6 +6,7 @@ import time
 import io
 
 from jira import JIRA
+import json
 
 
 LJUST=12
@@ -194,6 +195,43 @@ def jql_string_process(para_, project_key_):
 
     return jql_open_,jql_resolved_
 
+#----------------------------------------------------------------------
+def json_para_reader():
+    with open('models.json') as f:
+        data = json.load(f)
+
+    # print(data)
+    # print(" length of data = {}, data 0 = {}".format(len(data),type(data)))
+
+    data_a = data['models']
+    # print("Length of data = {} , data 0 = {} , data 0 type = {}".format(len(data_a),data_a[0],type(data_a[0])))
+
+    arr1 = []
+    arr2 = []
+    arro = []
+
+    for sub_data in data_a:
+        temp_ar = []
+        temp_ar.append(sub_data['name'])
+        temp_ar.append(int(sub_data['space']))
+        temp_ar.append(sub_data['subg'])
+
+        if sub_data['group'] == 'FW3_1':
+            arr1.append(temp_ar)
+        elif sub_data['group'] == 'FW3_2':
+            arr2.append(temp_ar)
+        elif sub_data['group'] == 'FW3_2':
+            arr2.append(temp_ar)
+        elif sub_data['group'] == 'Other':
+            arro.append(temp_ar)
+    
+    # print("Array 1 = {}".format(arr1))
+    # print("Array 2 = {}".format(arr2))
+    # print("Array Other = {}".format(arro))
+
+    return arr1,arr2,arro
+
+
 
 #----------------------------------------------------------------------
 if __name__ == "__main__":
@@ -220,9 +258,12 @@ if __name__ == "__main__":
 
 
     # Gaming Monitor NPI
-    para_fw3_1 = [['ASUSPG48UQ',14,'']]
-    para_fw3_2 = [['TWJVC50G22',16,''],['TWJVC65G22',16,''],['TWJVC75G22',16,''],['TWJVC32G22',16,'']]
-    para_other = [['NOVATEK',12,'PG48UQ']]
+    # para_fw3_1 = [['ASUSPG48UQ',14,'']]
+    # para_fw3_2 = [['TWJVC50G22',16,''],['TWJVC65G22',16,''],['TWJVC75G22',16,''],['TWJVC32G22',16,'']]
+    # para_other = [['NOVATEK',12,'PG48UQ'],['NOVATEK',12,'VG32UQA1A']]
+
+    para_fw3_1,para_fw3_2,para_other = json_para_reader()
+    
 
 
     print ("==============[FW3 - 1 Start ] ==========================================================>")
