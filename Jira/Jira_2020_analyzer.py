@@ -11,6 +11,7 @@ import json
 
 LJUST=12
 FILE_PATH_JIRA_CERT=r"D:\work_platform\Jira\auth_amt"
+FILE_PATH_MODELS_JSON=r"D:\work_platform\Github\Amt_work_platform\Jira\models.json"
 
 # NOTE: The parameter 'displayName' (Assignee Name) could be changed for time to time
 # Just print out the fields value in order to find out what the parameter name is
@@ -197,7 +198,7 @@ def jql_string_process(para_, project_key_):
 
 #----------------------------------------------------------------------
 def json_para_reader():
-    with open('models.json') as f:
+    with open(FILE_PATH_MODELS_JSON) as f:
         data = json.load(f)
 
     # print(data)

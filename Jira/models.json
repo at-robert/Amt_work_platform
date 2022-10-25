@@ -20,6 +20,18 @@
             "subg":""
         },
         {
+            "group":"FW3_2",
+            "name":"TWJVC75G22",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_2",
+            "name":"TWJVC32G22",
+            "space":"16",
+            "subg":""
+        },
+        {
             "group":"Other",
             "name":"NOVATEK",
             "space":"12",
