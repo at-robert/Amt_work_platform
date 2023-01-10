@@ -8,7 +8,9 @@ import datetime
 from tkinter.tix import MAX
 import pandas as pd
 from cal_setup import get_calendar_service
+import fw3_day_off as fw3
 
+FILE_PATH_TIMESTAMP_CAL = r"D:\work_platform\fw3_day_off\once_day_cal.txt"
 
 def out_to_csv(date_in, sum_):
 
@@ -76,4 +78,8 @@ def parser_google_cal():
 #----------------------------------------------------------------------
 if __name__ == "__main__":
     # sl.lineNotify_one_to_one("Hello again!!")
-    parser_google_cal()
+
+    if fw3.check_timestamp_file(FILE_PATH_TIMESTAMP_CAL) == True:
+        sys.exit()
+    else:
+        parser_google_cal()
