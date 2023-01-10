@@ -62,7 +62,7 @@ def parser_google_cal():
             start = start[0:10]
             dt_start = datetime.datetime.strptime(start, "%Y-%m-%d")
 
-            if( dt_start <  datetime.datetime.utcnow()):
+            if( dt_start <  datetime.datetime.utcnow() + datetime.timedelta(days=1) ):
                 print(start, event['summary'])
                 # To store to pandas dataframe
                 date_.append(start)
