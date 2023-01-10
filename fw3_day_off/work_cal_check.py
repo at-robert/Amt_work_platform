@@ -10,8 +10,12 @@ import pandas as pd
 from cal_setup import get_calendar_service
 import fw3_day_off as fw3
 
+# How to get Google Calendar ID, please refer to the following Evernote "Google Calendar Read" article
+CAL_ID_FINISH_TASK = '5h3ema8s5bbua11vdh1vcopfpk@group.calendar.google.com'
+
 FILE_PATH_TIMESTAMP_CAL = r"D:\work_platform\fw3_day_off\once_day_cal.txt"
 
+#----------------------------------------------------------------------
 def out_to_csv(date_in, sum_):
 
     cal_dict = {
@@ -24,9 +28,10 @@ def out_to_csv(date_in, sum_):
     # To output to csv file
     cal_dict_df.to_csv('cal_.csv', encoding='utf-8', index=False)
     
-
+# To obtain Google Calender Events 
+#----------------------------------------------------------------------
 def parser_google_cal():
-    cal_id = ['primary','5h3ema8s5bbua11vdh1vcopfpk@group.calendar.google.com']
+    cal_id = ['primary',CAL_ID_FINISH_TASK]
     date_ = []
     summary_ = []
     MAX_OUT = 500
