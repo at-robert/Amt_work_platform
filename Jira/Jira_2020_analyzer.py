@@ -221,8 +221,6 @@ def json_para_reader():
             arr1.append(temp_ar)
         elif sub_data['group'] == 'FW3_2':
             arr2.append(temp_ar)
-        elif sub_data['group'] == 'FW3_2':
-            arr2.append(temp_ar)
         elif sub_data['group'] == 'Other':
             arro.append(temp_ar)
     

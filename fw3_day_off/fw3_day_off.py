@@ -16,6 +16,7 @@ import send_line as sl
 # definition of constants
 FILE_PATH_TIMESTAMP = r"D:\work_platform\fw3_day_off\once_day.txt"
 FILE_PATH_CERT = r"D:\work_platform\fw3_day_off\client_secret.json"
+GOOGLE_SHEET = "FW3 Day Off"
 
 # ------------------  To calculate time difference ------------------------------------
 def extract_time_data(str_):
@@ -48,7 +49,7 @@ def get_cert_and_work_sheet():
     scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name(FILE_PATH_CERT , scope)
     client = gspread.authorize(creds)
-    google_sheet = "FW3 Day Off"
+    google_sheet = GOOGLE_SHEET
 
     sheet = client.open(google_sheet)
     worksheet_year = sheet.worksheet(str(datetime.today().year))
