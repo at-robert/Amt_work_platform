@@ -3,12 +3,6 @@
     [
         {
             "group":"FW3_1",
-            "name":"ASUSPG48UQ",
-            "space":"14",
-            "subg":""
-        },
-        {
-            "group":"FW3_1",
             "name":"VG32UQA1A",
             "space":"14",
             "subg":""
@@ -20,15 +14,32 @@
             "subg":""
         },
         {
-
             "group":"FW3_2",
-            "name":"G32QCACSOT",
-            "space":"14",
+            "name":"TWJVC50G22",
+            "space":"16",
             "subg":""
         },
         {
             "group":"FW3_2",
-            "name":"TWJVC32G22",
+            "name":"TWJVC55G",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_2",
+            "name":"TWJVC55TG",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_2",
+            "name":"TWJVC65TG",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_2",
+            "name":"TWJVC75TG",
             "space":"16",
             "subg":""
         },

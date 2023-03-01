@@ -14,6 +14,7 @@ import fw3_day_off as fw3
 CAL_ID_FINISH_TASK = '5h3ema8s5bbua11vdh1vcopfpk@group.calendar.google.com'
 
 FILE_PATH_TIMESTAMP_CAL = r"D:\work_platform\fw3_day_off\once_day_cal.txt"
+FILE_PATH_CAL_CSV = r"D:\work_platform\fw3_day_off\cal_.csv"
 
 #----------------------------------------------------------------------
 def out_to_csv(date_in, sum_):
@@ -26,7 +27,7 @@ def out_to_csv(date_in, sum_):
 
     cal_dict_df.sort_values(by=['date'],ascending=True,inplace=True)
     # To output to csv file
-    cal_dict_df.to_csv('cal_.csv', encoding='utf-8', index=False)
+    cal_dict_df.to_csv(FILE_PATH_CAL_CSV, encoding='utf-8', index=False)
     
 # To obtain Google Calender Events 
 #----------------------------------------------------------------------

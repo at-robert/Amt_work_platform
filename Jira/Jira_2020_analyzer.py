@@ -230,6 +230,29 @@ def json_para_reader():
 
     return arr1,arr2,arro
 
+#----------------------------------------------------------------------
+def print_group(para_in_, str_):
+    print ("==============[" + str_ + "Start ] ==========================================================>")
+
+    for sub_para_ in para_in_:
+        project_key = sub_para_[0]
+        LJUST = sub_para_[1]
+        para = sub_para_[2]
+
+        # # ALL =============================================================
+        print ("=============================================================")
+        jra = jira.project(project_key)
+        print ("Project name = " + (jra.name))                 # 'JIRA'
+        
+        # print ("Project leader = " + (jra.lead._session['displayName']))
+        jql_open,jql_resolved = jql_string_process(para, project_key)
+
+        # print(" jql_open = {} , jql_resolved = {} \n".format(jql_open, jql_resolved)) 
+        print_jira_status(jira,jql_open, jql_resolved, jra.name)
+        print ("=============================================================")
+        # # ALL ============================================================= END
+
+    print ("==============[" + str_ + "END ] =======================================================>\n\n")
 
 
 #----------------------------------------------------------------------
@@ -262,80 +285,9 @@ if __name__ == "__main__":
     # para_other = [['NOVATEK',12,'PG48UQ'],['NOVATEK',12,'VG32UQA1A']]
 
     para_fw3_1,para_fw3_2,para_other = json_para_reader()
+
+    print_group(para_fw3_1,"FW3 - 1")
+    print_group(para_fw3_2,"FW3 - 2")
+    print_group(para_other,"FW3 - Other")
+
     
-
-
-    print ("==============[FW3 - 1 Start ] ==========================================================>")
-
-    for sub_para_ in para_fw3_1:
-        project_key = sub_para_[0]
-        LJUST = sub_para_[1]
-        para = sub_para_[2]
-
-        # # ALL =============================================================
-        print ("=============================================================")
-        jra = jira.project(project_key)
-        print ("Project name = " + (jra.name))                 # 'JIRA'
-        
-        # print ("Project leader = " + (jra.lead._session['displayName']))
-     
-        jql_open,jql_resolved = jql_string_process(para, project_key)
-
-        # print(" jql_open = {} , jql_resolved = {} \n".format(jql_open, jql_resolved)) 
-        print_jira_status(jira,jql_open, jql_resolved, jra.name)
-        print ("=============================================================")
-        # # ALL ============================================================= END
-
-    print ("==============[FW3 - 1 END ] =======================================================>\n\n")
-
-    print ("==============[FW3 - 2 Start ] =====================================================>")
-
-    for sub_para_ in para_fw3_2:
-        project_key = sub_para_[0]
-        LJUST = sub_para_[1]
-        para = sub_para_[2]
-
-        # # ALL =============================================================
-        print ("=============================================================")
-        jra = jira.project(project_key)
-        print ("Project name = " + (jra.name))                 # 'JIRA'
-        
-        # print ("Project leader = " + (jra.lead._session['displayName']))
-     
-        jql_open,jql_resolved = jql_string_process(para, project_key)
-
-        # print(" jql_open = {} , jql_resolved = {} \n".format(jql_open, jql_resolved)) 
-        print_jira_status(jira,jql_open, jql_resolved, jra.name)
-        print ("=============================================================")
-        # # ALL ============================================================= END
-
-    print ("==============[FW3 - 2 END ] ==========================================================>\n\n")
-
-    print ("==============[FW3 - Other Start ] =====================================================>")
-
-    for sub_para_ in para_other:
-        project_key = sub_para_[0]
-        LJUST = sub_para_[1]
-        para = sub_para_[2]
-
-        # # ALL =============================================================
-        print ("=============================================================")
-        jra = jira.project(project_key)
-        print ("Project name = " + (jra.name))                 # 'JIRA'
-        
-        # print ("Project leader = " + (jra.lead._session['displayName']))
-     
-        jql_open,jql_resolved = jql_string_process(para, project_key)
-
-        # print(" jql_open = {} , jql_resolved = {} \n".format(jql_open, jql_resolved)) 
-        print_jira_status(jira,jql_open, jql_resolved, jra.name)
-        print ("=============================================================")
-        # # ALL ============================================================= END
-
-    print ("==============[FW3 - Other END ] =========================================================>\n\n")
-
-
-
-
-
-
