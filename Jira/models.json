@@ -2,58 +2,17 @@
     "models":
     [
         {
+
             "group":"FW3_1",
-            "name":"VG32UQA1A",
-            "space":"14",
-            "subg":""
-        },
-        {
-            "group":"FW3_1",
-            "name":"M32QCCSOT",
-            "space":"14",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"TWJVC50G22",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"TWJVC55G",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"TWJVC55TG",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"TWJVC65TG",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"TWJVC75TG",
+            "name":"PG49WCDSDC",
             "space":"16",
             "subg":""
         },
         {
             "group":"Other",
-            "name":"NOVATEK",
+            "name":"GIGAREAL",
             "space":"12",
-            "subg":"PG48UQ"
-        },
-        {
-            "group":"Other",
-            "name":"NOVATEK",
-            "space":"12",
-            "subg":"VG32UQA1A"
+            "subg":"PG49WCD"
         }
     ]
 }
