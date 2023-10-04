@@ -4,14 +4,19 @@ import os
 import re
 import time
 import io
+import platform
 
 from jira import JIRA
 import json
 
+pwd = os.path.expanduser('~') + '/'
 
 LJUST=12
 FILE_PATH_JIRA_CERT=r"D:\work_platform\Jira\auth_amt"
 FILE_PATH_MODELS_JSON=r"D:\work_platform\Github\Amt_work_platform\Jira\models.json"
+
+FILE_PATH_JIRA_CERT_MAC= pwd + 'Documents/CERT/auth_amt'
+FILE_PATH_MODELS_JSON_MAC= pwd + 'Documents/Github/Amt_work_platform/Jira/models.json'
 
 # NOTE: The parameter 'displayName' (Assignee Name) could be changed for time to time
 # Just print out the fields value in order to find out what the parameter name is
@@ -198,9 +203,14 @@ def jql_string_process(para_, project_key_):
 
 #----------------------------------------------------------------------
 def json_para_reader():
-    with open(FILE_PATH_MODELS_JSON) as f:
-        data = json.load(f)
 
+    if (platform.system() == 'Darwin'):
+        with open(FILE_PATH_MODELS_JSON_MAC) as f:
+            data = json.load(f)
+    else:
+        with open(FILE_PATH_MODELS_JSON) as f:
+            data = json.load(f)
+    
     # print(data)
     # print(" length of data = {}, data 0 = {}".format(len(data),type(data)))
 
@@ -261,13 +271,14 @@ if __name__ == "__main__":
     # sys.setdefaultencoding('utf-8')
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 
-    pwd = os.path.expanduser('~') + '/'
     auth_data = []
     pass_data = []
 
-    search_auth_file(FILE_PATH_JIRA_CERT, auth_data, pass_data)
+    if (platform.system() == 'Darwin'):
+        search_auth_file(FILE_PATH_JIRA_CERT_MAC, auth_data, pass_data)
+    else:
+        search_auth_file(FILE_PATH_JIRA_CERT, auth_data, pass_data)
     
-
     jira = connect_to_jira(auth_data[0], pass_data[0])
     projects = jira.projects()
 
