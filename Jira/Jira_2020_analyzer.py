@@ -196,8 +196,12 @@ def jql_string_process(para_, project_key_):
         jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component in (AUDIO, EE, PQ, SW, FW, PANEL) ORDER BY priority DESC, updated DESC'
         jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component in (AUDIO, EE, PQ, SW, FW, PANEL) ORDER BY priority DESC, updated DESC'
     else:
-        jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component in (' + para_ + ') ORDER BY priority DESC, updated DESC'
-        jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component in (' + para_ + ') ORDER BY priority DESC, updated DESC'
+        # jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component in (' + para_ + ') ORDER BY priority DESC, updated DESC'
+        # jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component in (' + para_ + ') ORDER BY priority DESC, updated DESC'
+        jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component = ' + '"' + para_ + '"' + ' ORDER BY priority DESC, updated DESC'
+        jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component = ' + '"' + para_ + '"' + ' ORDER BY priority DESC, updated DESC'
+
+    # print(" jql_open_ = " + jql_open_)
 
     return jql_open_,jql_resolved_
 
