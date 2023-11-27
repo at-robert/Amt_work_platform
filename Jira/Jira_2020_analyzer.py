@@ -31,7 +31,7 @@ def get_assignee_name(_issue):
 #----------------------------------------------------------------------
 def print_jira_status(jira, jql_open, jql_resolved, proj_name, speical_word = '[XXXXX]'):
 
-    all_proj_issues = jira.search_issues(jql_open,maxResults=1000)
+    all_proj_issues = jira.search_issues(jql_open,maxResults=0)
 
     # print ("{} Opening issues:".format(proj_name))
     A_Cout = 0
@@ -75,7 +75,7 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, speical_word = '[
     print(" ")
 
 
-    all_proj_issues = jira.search_issues(jql_resolved,maxResults=1000)
+    all_proj_issues = jira.search_issues(jql_resolved,maxResults=0)
 
     # print ("\n{} Resolved issues:".format(proj_name))
     A_Cout = 0
