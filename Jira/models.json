@@ -2,35 +2,22 @@
     "models":
     [
         {
-
             "group":"FW3_1",
-            "name":"PG49WCDSDC",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
             "name":"GTBFO32U2P",
             "space":"16",
             "subg":""
         },
         {
-            "group":"FW3_2",
+            "group":"FW3_1",
             "name":"GTBFO32U2",
             "space":"16",
             "subg":""
         },
         {
-            "group":"FW3_2",
+            "group":"FW3_1",
             "name":"GTBFO27Q3",
             "space":"16",
             "subg":""
-        },
-        {
-            "group":"Other",
-            "name":"GIGAREAL",
-            "space":"12",
-            "subg":"PG49WCD"
         },
         {
             "group":"Other",

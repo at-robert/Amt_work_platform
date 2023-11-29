@@ -41,6 +41,14 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, speical_word = '[
     issue_arry = []
     print_array = []
 
+    # jira statistics 
+    OSD_count = 0
+    SYS_count = 0
+    Audio_count = 0
+    PQ_count = 0
+    Video_count = 0
+    Other_count = 0
+
     # for issue in all_proj_issues:
     # # print out the raw data of the all fields
     #     for field_name in issue.raw['fields']:
@@ -63,6 +71,22 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, speical_word = '[
 
             # print ("[{}] {} - {} [{}]".format(issue.fields.priority, str(issue).ljust(LJUST), issue.fields.summary,get_assignee_name(issue)))
             print_array.append("[{}] {} - {} [{}]".format(issue.fields.priority, str(issue).ljust(LJUST), issue.fields.summary,get_assignee_name(issue)))
+
+            # jira statistics
+            if(tmp_str.startswith('[OSD]')):
+                OSD_count = OSD_count + 1
+            elif(tmp_str.startswith('[SYS]')):
+                SYS_count = SYS_count + 1
+            elif(tmp_str.startswith('[AUDIO]')):
+                Audio_count = Audio_count + 1
+            elif(tmp_str.startswith('[PQ]')):
+                PQ_count = PQ_count + 1
+            elif(tmp_str.startswith('[VIDEO]')):
+                Video_count = Video_count + 1
+            else:
+                Other_count = Other_count + 1
+            # ===================================== jira statistics END
+
         else:
             issue_arry.append(issue)
         # print "[%s] %s - %s" %(issue.fields.priority, issue, issue.fields.summary)
@@ -73,6 +97,12 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, speical_word = '[
         print( item )
         # print(item.encode("utf8").decode("cp950", "ignore"))
     print(" ")
+
+
+    # jira statistics
+    total_c = OSD_count + SYS_count + Audio_count + PQ_count + Video_count + Other_count
+    print ("{} => [JIRA Statistics] OSD = {} , SYS = {} , Audio = {} , PQ = {} , VIDEO = {}, Other = {} , total = {} ".format(proj_name,OSD_count,SYS_count,Audio_count,PQ_count,Video_count,Other_count,total_c))
+    print (" ")
 
 
     all_proj_issues = jira.search_issues(jql_resolved,maxResults=0)
