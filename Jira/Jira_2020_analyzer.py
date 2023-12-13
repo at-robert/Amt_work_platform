@@ -14,9 +14,13 @@ pwd = os.path.expanduser('~') + '/'
 LJUST=12
 FILE_PATH_JIRA_CERT=r"D:\work_platform\Jira\auth_amt"
 FILE_PATH_MODELS_JSON=r"D:\work_platform\Github\Amt_work_platform\Jira\models.json"
+# For testing
+# FILE_PATH_MODELS_JSON=r"D:\work_platform\Github\Amt_work_platform\Jira\models_test.json"
 
 FILE_PATH_JIRA_CERT_MAC= pwd + 'Documents/CERT/auth_amt'
 FILE_PATH_MODELS_JSON_MAC= pwd + 'Documents/Github/Amt_work_platform/Jira/models.json'
+# For testing
+# FILE_PATH_MODELS_JSON_MAC= pwd + 'Documents/Github/Amt_work_platform/Jira/models_test.json'
 
 # NOTE: The parameter 'displayName' (Assignee Name) could be changed for time to time
 # Just print out the fields value in order to find out what the parameter name is
