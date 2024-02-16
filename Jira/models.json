@@ -20,6 +20,18 @@
             "subg":""
         },
         {
+            "group":"FW3_2",
+            "name":"XG32WCMS63",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_2",
+            "name":"XG32WCS",
+            "space":"16",
+            "subg":""
+        },
+        {
             "group":"Other",
             "name":"GIGAREAL",
             "space":"12",
@@ -30,6 +42,12 @@
             "name":"MONMTK",
             "space":"12",
             "subg":"XG32WCMS"
+        },
+        {
+            "group":"Other",
+            "name":"GIGAREAL",
+            "space":"12",
+            "subg":"XG32WCS"
         }
     ]
 }
