@@ -32,6 +32,18 @@
             "subg":""
         },
         {
+            "group":"FW3_2",
+            "name":"GTBFO27Q2",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_2",
+            "name":"GTBM27QAB",
+            "space":"16",
+            "subg":""
+        },
+        {
             "group":"Other",
             "name":"GIGAREAL",
             "space":"12",
