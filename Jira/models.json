@@ -60,6 +60,12 @@
             "name":"GIGAREAL",
             "space":"12",
             "subg":"XG32WCS"
+        },
+        {
+            "group":"Other",
+            "name":"GIGAREAL",
+            "space":"12",
+            "subg":"M27QA"
         }
     ]
 }
