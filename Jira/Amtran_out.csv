@@ -1,110 +1,110 @@
-,Priority,Issue key,Status,Assignee,Created,Custom field (VendorCR),Summary
-0,C,XG32WCMS63-285,In Progress,Bruce Wu,29/Feb/24 10:03 AM,https://amtran.atlassian.net/browse/MONMTK-689,[OSD] OSD主菜单上方显示图像模式/输入选择与HDR状态， 上下字体对准方式不统一（如图）
-1,B,XG32WCMS63-318,In Progress,Jason Huang,02/Mar/24 9:56 AM,,[OSD]开关HDR功能，OSD部分菜单显示异常
-2,B,XG32WCMS63-326,In Progress,Bruce Wu,04/Mar/24 9:19 AM,https://amtran.atlassian.net/browse/MONMTK-661,[SYS] 移除信号自动切source时，指示灯先变橙色再变白色，然后出画面
-3,B,XG32WCMS63-297,In Progress,Bruce Wu,29/Feb/24 4:22 PM,https://amtran.atlassian.net/browse/MONMTK-696,[SYS] 菜单 游戏--ELMB设置-- 清晰位置功能互相切换时画面遮黑开启后，没有对应的作用
-4,C,XG32WCMS63-328,In Progress,Bruce Wu,04/Mar/24 9:52 AM,https://amtran.atlassian.net/browse/MONMTK-697,[SYS] 显示器AC 或DC开机后 ，按出主菜单上下调节时反应偏慢，5秒左右可恢复正常
-5,B,XG32WCMS63-340,In Progress,Bruce Wu,05/Mar/24 1:39 PM,https://amtran.atlassian.net/browse/MONMTK-686,[OSD]PIP/PBP开启后，显示器DCoff/on，菜单显示乱码
-6,B,XG32WCMS63-339,In Progress,Bruce Wu,05/Mar/24 1:16 PM,https://amtran.atlassian.net/browse/MONMTK-687,[SYS] 菜单“自动输入检测”开启，PIP/PBP 模式下，主画面切换至无信号的source后，不会自动侦测有信号的源
-7,B,XG32WCMS63-338,In Progress,Bruce Wu,05/Mar/24 1:09 PM,https://amtran.atlassian.net/browse/MONMTK-686,[OSD] PIP/PBP模式开启，主画面切换至无信号的source后，五向键按出的菜单乱码
-8,B,XG32WCMS63-316,In Progress,Bruce Wu,01/Mar/24 4:21 PM,https://amtran.atlassian.net/browse/MONMTK-690,[SYS] PIP/PBP模式， 自定义设置→设置1-2保存后， 无法Load出PIP/PBP保存的模式
-9,B,XG32WCMS63-292,In Progress,Bruce Wu,29/Feb/24 3:08 PM,https://amtran.atlassian.net/browse/MONMTK-683,[OSD] PIP/PBP模式下，子画面拔掉信号后，荧幕跳出 “DP无信号”对话框
-10,B,XG32WCMS63-237,In Progress,Jason Huang,26/Feb/24 9:52 AM,https://amtran.atlassian.net/browse/MONMTK-642,[SYS] PIP功能开启后，子画面位置没有到显示器的边界上，而是和边界保留了一段距离
-11,B,XG32WCMS63-183,In Progress,Jason Huang,14/Feb/24 11:51 AM,https://amtran.atlassian.net/browse/MONMTK-615,[VIDEO] PIP功能开启后，切换子画面位置时，子画面会闪一下
-12,B,XG32WCMS63-192,In Progress,Bruce Wu,17/Feb/24 12:01 PM,https://amtran.atlassian.net/browse/MONMTK-691,"[SYS] PIP/PBP开启后，做reset后刷新了只能到2560*1440@60hz,找不到HRD选项"
-13,B,XG32WCMS63-343,In Progress,Bruce Wu,05/Mar/24 2:48 PM,https://amtran.atlassian.net/browse/MONMTK-688,[SYS] Sniper Night Vision功能开启后，调节Color Temp./Gamma时，Sniper Night Vision功能中的绿色会消失
-14,B,XG32WCMS63-370,In Progress,Jason Huang,08/Mar/24 9:43 AM,https://amtran.atlassian.net/browse/MONMTK-695,"[SYS] HDMI source 连接RX6900,DP source连接3080，从HDMI source 切换到DP source ,按菜单键显示不出来"
-15,B,XG32WCMS63-345,In Progress,Jason Huang,05/Mar/24 4:22 PM,https://amtran.atlassian.net/browse/MONMTK-694,[VIDEO] HDMI连接PS5，测试1440p输出界面，VRR认证过程中，显示器荧幕下方闪烁
-16,B,XG32WCMS63-377,Open,Jason Huang,08/Mar/24 7:07 PM,,"[AUDIO] DP source 连接3080 ,播放音乐，在分辨率3840X2160@60HZ（HDR）下，关闭HDR，切换过程中依然有声音输出"
-17,B,XG32WCMS63-379,Open,Jason Huang,08/Mar/24 7:44 PM,,[VIDEO] DP source 连接3080，在分辨率1920X1080@60HZ下，打开HDR，按菜单键，菜单每出现一次，屏幕就闪一次
-18,B,XG32WCMS63-103,Open,DennisL,29/Jan/24 4:58 PM,,[PQ] 开启HDR时画面发白。
-19,C,XG32WCMS63-250,Reopened,Jason Huang,27/Feb/24 9:54 AM,,"[SYS] PIP开启后,相比 XG32WCS机种PIP窗口偏小"
-20,B,XG32WCMS63-211,Open,Jason Huang,20/Feb/24 3:39 PM,,[SYS] 从HDMI source分辨率2560X1440@60HZ切换到640X480@75HZ，显示器黑屏后自动返回
-21,B,XG32WCMS63-212,Open,Jason Huang,21/Feb/24 9:08 AM,,[SYS] 显示器开机时间超时
-22,B,XG32WCMS63-231,Open,Jason Huang,22/Feb/24 7:13 PM,,[SYS] 连接Mac mimi Apple M1，部分刷新率找不到
-23,B,XG32WCMS63-209,Reopened,Jason Huang,20/Feb/24 3:14 PM,,[SYS] TYPEC  连接 显卡6900 缺少部分刷新率
-24,B,XG32WCMS63-337,Open,Jason Huang,05/Mar/24 10:26 AM,,[SYS] Power Setting - Power Saving Mode，快速睡眠或一分钟睡眠后，鼠标键盘无法唤醒荧幕，插拔信号后画面正常
-25,B,XG32WCMS63-374,Open,Jason Huang,08/Mar/24 4:26 PM,,"[VIDEO] HDMI source 连接RX6900,在分辨率2560X1440/165HZ切换到2560X1440@240HZ时，出现白色画异"
-26,B,XG32WCMS63-375,Open,Jason Huang,08/Mar/24 4:33 PM,,"[VIDEO] HDMI source 连接RX6900,在分辨率3840X2160@120hz下，开或者关闭HDR 出现白色画异"
-27,A,XG32WCMS63-368,Open,Harris.Zhang,08/Mar/24 9:28 AM,,动态画面下按键界面跳动
-28,A,XG32WCMS63-369,Open,Harris.Zhang,08/Mar/24 9:41 AM,,投线时发现破片一台
-29,B,XG32WCMS63-271,In Progress,Bruce Wu,28/Feb/24 3:33 PM,,"[OSD] 菜单内Customized Setting→Setting1-2 →点击Load后，OSD菜单乱码，且OSD上方的""输入选择""与""HDR禁用""没有Load 出厂设置语言"
-30,B,XG32WCMS63-310,In Progress,Bruce Wu,01/Mar/24 1:19 PM,,[OSD] DPsource，Variable Refresh Rate下一栏显示说明信息与OSDtree显示不一致
-31,B,XG32WCMS63-277,In Progress,Bruce Wu,28/Feb/24 7:14 PM,,[OSD]机台Variable Refresh Rate开启时，荧幕中央跳出的提示语：Adaptive.Sync字眼 与OSD tree不一致，OSDtree上为Variable Refresh Rate
-32,B,XG32WCMS63-206,Reopened,Jason Huang,20/Feb/24 3:09 PM,,[SYS] HDMI 连接 显卡6900   缺少部分刷新率
-33,B,XG32WCMS63-147,In Progress,Bruce Wu,01/Feb/24 2:57 PM,,[OSD] 菜单 Auto Input Detection ：OFF后，HDMI source切到TYPEC source无信号时，按五项键叫出菜单后System setup项，出现乱码
-34,B,XG32WCMS63-308,In Progress,Bruce Wu,01/Mar/24 11:12 AM,,[OSD] 开启Sniper Night Vision功能 ，显示器画面遮黑出画时， 荧幕中央闪一下黑方框在进入Night
-35,B,XG32WCMS63-130,In Progress,Jason Huang,31/Jan/24 10:40 AM,,[AUDIO] 在HDMIsource 连接ASUS FA507笔记本，切换到分辨率2560*1440@120hz时，耳机有杂音
-36,C,XG32WCMS63-301,In Progress,Bruce Wu,01/Mar/24 8:52 AM,,[OSD]PBP模式下，按Power键关机，跳出的Power对话框显示不居中，显示在主画面上
-37,B,XG32WCMS63-307,In Progress,Bruce Wu,01/Mar/24 11:07 AM,,[OSD] 菜单内开启Sniper功能 ，荧幕遮黑出画时 Sniper位置闪一下黑方块
-38,B,XG32WCMS63-267,In Progress,Bruce Wu,28/Feb/24 2:42 PM,,[OSD]实际机台 菜单内Color Temp→User Mode显示与OSDtree不一致，OSDtree显示为User，没有Mode字样
-39,B,XG32WCMS63-217,In Progress,Jason Huang,21/Feb/24 3:20 PM,,"[VIDEO]使用ASUS笔记本FA507,在Typec  source 下，连接780M，分辨率1600x1220@60hz切换到1920x1080@60hz，屏幕右边画面卡顿"
-40,B,XG32WCMS63-359,Open,allen.chen (TPE-Panel),05/Mar/24 5:10 PM,,白斑
-41,B,XG32WCMS63-344,Open,DennisL,05/Mar/24 4:14 PM,,[PQ]色温数据超规
-42,B,XG32WCMS63-293,Open,Jason Huang,29/Feb/24 3:18 PM,,[SYS] 开启PIP/PBP ，  PIP与PBP模式互相切换或显示器DCoff/on，子画面自动跳到Typec信号上，不会自动识别其他信号
-43,B,XG32WCMS63-333,In Progress,Bruce Wu,04/Mar/24 4:07 PM,,[OSD] PBP模式下，画中画尺寸依旧可以调节
-44,B,XG32WCMS63-305,In Progress,Bruce Wu,01/Mar/24 10:50 AM,,[OSD] 菜单 - GamePlus 下一列开启带有下一级菜单的功能时， 需按两次五向键才可按出主菜单
-45,B,XG32WCMS63-332,In Progress,Bruce Wu,04/Mar/24 3:15 PM,,[OSD] 简体与繁体语言下，色彩  -  六轴色彩饱和度  -  红 绿 蓝  -   数值上方显示的红绿蓝错位乱码
-46,B,XG32WCMS63-273,In Progress,Bruce Wu,28/Feb/24 4:00 PM,,[OSD]机台菜单System Setup - Information下一栏Model Name  Series显示与OSDtree不一致，OSDtree上没有Series单词
-47,C,XG32WCMS63-283,In Progress,Bruce Wu,29/Feb/24 9:09 AM,,[OSD]菜单Power Setting - Standard Mode与Power Saving Mode互相切换时，显示器画面遮黑过程中会跳出OSD主菜单
-48,B,XG32WCMS63-266,In Progress,Bruce Wu,28/Feb/24 2:39 PM,,[OSD]菜单内Color Temp→User Mode→R  G  B 调节颜色后，菜单Reset ，R  G  B数值恢复到默认值，实际机台的亮荧幕颜色没有还原
-49,C,XG32WCMS63-334,In Progress,Bruce Wu,04/Mar/24 4:13 PM,,[OSD] PBP模式下，PBP源与色彩设置， source的按钮显示异常（如图）
-50,B,XG32WCMS63-335,Open,Jason Huang,04/Mar/24 4:35 PM,,"[SYS] PBP/PIP模式下，主源下切换source, 随机出现子画面黑屏无画面"
-51,B,XG32WCMS63-330,Open,Jason Huang,04/Mar/24 10:39 AM,,[SYS] HDMI连接RTX3050显卡  解析度2K280hz，菜单内ELMB设置下一栏ELMB功能开启，显示器画面持续闪黑屏
-52,B,XG32WCMS63-329,Open,Jason Huang,04/Mar/24 10:33 AM,,"[SYS] ELMB开启后，timing切到2560*1440@60hz，再切回到2560*1440@280后,ELMB会显示关闭"
-53,B,XG32WCMS63-262,Open,Jason Huang,28/Feb/24 1:58 PM,,[VIDEO] GameVisual 模式互相时，显示器画面出现闪线条现象，位置不定
-54,B,XG32WCMS63-306,In Progress,Bruce Wu,01/Mar/24 10:58 AM,,[OSD] Crosshair  Sniper / Sniper /Night Vision功能开启后，菜单Reset，荧幕中央会跳出两次Power Setting对话框
-55,B,XG32WCMS63-303,In Progress,Bruce Wu,01/Mar/24 9:59 AM,,[OSD] OSD主菜单内，上下左右调节功能时，菜单内随机出现闪线条现象（如图）
-56,B,XG32WCMS63-177,Reopened,Mikey.Yu(TPE-ME),06/Feb/24 4:41 PM,,[Other]共振驻留振动测试后检查发现白痕
-57,B,XG32WCMS63-320,In Progress,Jason Huang,02/Mar/24 2:01 PM,,[OSD] 菜单内切换语言确认时，上一列的菜单开关按钮显示乱码（如图）
-58,C,XG32WCMS63-321,In Progress,Jason Huang,02/Mar/24 2:08 PM,,[OSD] 菜单电源设置切换到省电模式，调节切换语言时Power Indicator的开关图标丢失
-59,B,XG32WCMS63-322,In Progress,Jason Huang,02/Mar/24 2:18 PM,,[OSD] 语言调节到Bahasa Indonesia(印度尼西亚语)，System Setup字体显示超出
-60,B,XG32WCMS63-323,In Progress,Jason Huang,02/Mar/24 2:49 PM,,[OSD] 菜单语言切换到Tiếng Việt时，System Setup列显示超出菜单(如图）
-61,B,XG32WCMS63-315,In Progress,Bruce Wu,01/Mar/24 3:49 PM,,[OSD] Customized Setting - Setting 1-2选择确认Save或Load 功能，菜单返回到ASUS DisplayWidget Center二维码下方画异
-62,B,XG32WCMS63-317,Open,Jason Huang,02/Mar/24 9:31 AM,,"[SYS] HDR开启 ,  PIP/PBP 模式点击开启，实则没有开启PIP/PBP模式，显示器画面异常，刷新率只能达到60hz，此时找不到HDR开关选项"
-63,B,XG32WCMS63-178,Reopened,allen.chen (TPE-Panel),07/Feb/24 2:58 PM,,[PANEL] 残影测试FAIL
-64,B,XG32WCMS63-309,In Progress,Bruce Wu,01/Mar/24 11:28 AM,,"[SYS] Sniper /Night Vision功能开启后, 按快捷键与五向键 上 下 左 右，显示的菜单异常"
-65,B,XG32WCMS63-243,Open,DennisL,26/Feb/24 1:32 PM,,[PQ] 白平衡工時超標標準120秒實際240秒 工時超標.
-66,B,XG32WCMS63-203,In Progress,Bruce Wu,20/Feb/24 11:28 AM,,"[AUDIO] 在HDMI source分辨率1920X1080@100HZ切换到1920X1080@120HZ,，切换过程中有视频声音输出"
-67,B,XG32WCMS63-300,In Progress,Bruce Wu,29/Feb/24 7:44 PM,,[OSD] 简体与繁体语言下，色温--使用者模式光标调到 “红 绿 蓝”上后，“ 红 绿 蓝”字体显示不完整
-68,B,XG32WCMS63-294,In Progress,Bruce Wu,29/Feb/24 3:33 PM,,[OSD] 中文简体，游戏--ELMB设置--清晰位置下一栏菜单丢失与显示不全
-69,B,XG32WCMS63-291,In Progress,Bruce Wu,29/Feb/24 2:33 PM,,[OSD] HDR模式下，VividPixel功能置灰，与OSDtree定义不符，OSDtree打 “✔”不应置灰
-70,B,XG32WCMS63-298,Open,Jason Huang,29/Feb/24 4:36 PM,,"[SYS] 菜单内Vivid Pixel功能异常,  调节数值时，画面清晰度没有逐渐变化"
-71,B,XG32WCMS63-257,In Progress,Jason Huang,28/Feb/24 11:14 AM,,[VIDEO]菜单Sniper /Sniper Night Vision功能切换时，显示器画面遮黑两次(如视频）
-72,B,XG32WCMS63-296,In Progress,Bruce Wu,29/Feb/24 4:11 PM,,[OSD]简体中文，HDMI source下，可变刷新率开启时，荧幕跳出的对话框提示语乱码
-73,B,XG32WCMS63-290,Open,Jason Huang,29/Feb/24 2:23 PM,,[OSD]HDR模式下，PIP/PBP/Sniper与Sniper Night Vision/DisplayPort 1.2功能依旧可以选择，OSDtree定义 ”X” 不应可以选择切换（如图）
-74,B,XG32WCMS63-276,Open,Jason Huang,28/Feb/24 6:55 PM,,"[OSD]菜单ELMB与ELMB SYNC功能开启,  Variable Refresh Rate / Aspect Control / PIP/PBP功能没有被禁用，与OSDtree定义不符"
-75,B,XG32WCMS63-253,Open,Jason Huang,27/Feb/24 1:26 PM,,[SYS] DPsource 连接20m的DP线后，无画面显示
-76,B,XG32WCMS63-252,Reopened,Jason Huang,27/Feb/24 1:24 PM,,[SYS] HDMIsource 连接20m的HDMI线后，分辨率timing调到2560*1440@144hz以上就会出现无画面
-77,C,XG32WCMS63-251,Open,allen.chen (TPE-Panel),27/Feb/24 10:53 AM,,Film原材來料白點異常
-78,B,XG32WCMS63-37,Reopened,DennisL,27/Jan/24 1:51 PM,,[PQ] 菜单Display Color Space中DCI-P3切到 Wide Gamut画面没有变化
-79,B,XG32WCMS63-39,Reopened,DennisL,27/Jan/24 1:58 PM,,[PQ] 调节Color Temp.的选项时，画面会闪一下但没有作用
-80,B,XG32WCMS63-40,Reopened,DennisL,27/Jan/24 2:02 PM,,[PQ] 调节Gamma值，画面无变化
-81,B,XG32WCMS63-191,In Progress,Bruce Wu,17/Feb/24 10:54 AM,,[OSD]开启Display Alignment后，按input键无法叫出input菜单
-82,B,XG32WCMS63-190,In Progress,Bruce Wu,17/Feb/24 10:53 AM,,[OSD]开启Display Alignment后，按ok键无法叫出OSD主菜单
-83,B,XG32WCMS63-207,Reopened,Jason Huang,20/Feb/24 3:12 PM,,[SYS]DP 连接 显卡6900 缺少部分刷新率
-84,B,XG32WCMS63-223,Reopened,Jason Huang,21/Feb/24 6:17 PM,,[SYS] 连接 华硕笔记本 型号G634J 显卡4080，部分刷新率，HDMI 端口 切换至3840*2160@100/120hz;2560*1440@144/165/240/280hz 时 屏幕会黑屏闪烁
-85,B,XG32WCMS63-232,Open,Jason Huang,22/Feb/24 7:17 PM,,[SYS]连接ASUS笔记本FA507 ，部分刷新率找不到
-86,B,XG32WCMS63-226,Open,allen.chen (TPE-Panel),22/Feb/24 8:57 AM,,[PQ]sRGB 模式色域值不达标
-87,B,XG32WCMS63-227,In Progress,Jason Huang,22/Feb/24 9:25 AM,,[SYS] 在ASUS DisplayWidget Center 功能中扫码下载的APP无法使用
-88,B,XG32WCMS63-188,In Progress,Bruce Wu,17/Feb/24 10:05 AM,,[OSD] 核对语言翻译错误
-89,B,XG32WCMS63-195,In Progress,Bruce Wu,19/Feb/24 10:08 AM,,[AUDIO] 在DPsource 连接RTX3080，分辨率1024*768@60hz切换到分辨率1024*768@75hz过程中，耳机有杂音
-90,B,XG32WCMS63-220,In Progress,Bruce Wu,21/Feb/24 3:37 PM,,[VIDEO]菜单Aspect Control-16:9-full 中，开启24.5’功能后画异
-91,B,XG32WCMS63-222,Open,Jason Huang,21/Feb/24 6:15 PM,,[SYS] 连接Mac mini Apple M2; 部分刷新率找不到
-92,B,XG32WCMS63-208,Open,Jason Huang,20/Feb/24 3:13 PM,,[VIDEO]在DP source 下，分辨率从800X600@60HZ切换到800X600@75HZ，画面闪一下白色画异
-93,B,XG32WCMS63-197,Reopened,Jason Huang,19/Feb/24 11:41 AM,,[OSD]0109版 ENG spec定义，开启Freesync或 PIP/PBP功能时，应跳出当前信号源提示，实际无(如图)
-94,B,XG32WCMS63-180,In Progress,Jason Huang,14/Feb/24 9:48 AM,,[SYS] Crosshair 功能开启后，打开Dynamic Crosshair无作用
-95,B,XG32WCMS63-44,Reopened,Jason Huang,27/Jan/24 2:36 PM,,[VIDEO] 开启游戏“CFHD高清竞技大区”时，画面背光闪烁
-96,B,XG32WCMS63-133,Reopened,Jason Huang,31/Jan/24 11:17 AM,,[SYS] 在HDMI source2560*1440@60hz下开启 大摆钟 “G-SYNC Pendulum Demo Configuration”时，分辨率变成3840*2160@120hz
-97,B,XG32WCMS63-167,In Progress,Jason Huang,04/Feb/24 9:08 AM,,"[AUDIO]在HDMIsource 连接RTX3050笔记本，切换到分辨率640*480@60hz/75hz,800*600@60hz时，耳机有杂音"
-98,B,XG32WCMS63-132,In Progress,Bruce Wu,31/Jan/24 11:07 AM,,[VIDEO] 在HDMI source下开启 大摆钟 “G-SYNC Pendulum Demo Configuration”时，画面背光闪烁
-99,B,XG32WCMS63-157,In Progress,Bruce Wu,03/Feb/24 8:57 AM,,[VIDEO]调节Display Color Space内的sRGB，DCI-P3和Wide Gamut时，闪烁白色细横线
-100,C,XG32WCMS63-93,Open,Jason Huang,29/Jan/24 2:39 PM,,[SYS] 显示器进入工厂区时，OSD菜单选择F后，按确认键，无法打开工厂菜单
-101,B,XG32WCMS63-185,In Progress,Bruce Wu,15/Feb/24 11:02 AM,,[OSD]菜单 OSD Position开启后，移动时无法到四个边缘，如图
-102,B,XG32WCMS63-102,In Progress,Bruce Wu,29/Jan/24 4:46 PM,,"[OSD] """"Timer-Out"""" Behavior for Key Menu / Key Menu + Main Menu 错误"
-103,B,XG32WCMS63-165,In Progress,Bruce Wu,04/Feb/24 8:24 AM,,[OSD]菜单上Display Alignment 的翻译  法语，德语，西班牙语，意大利语，捷克语，匈牙利语，罗马尼亚语，泰国语，印尼语，乌克兰，越语      乱码
-104,B,XG32WCMS63-168,In Progress,Bruce Wu,04/Feb/24 10:16 AM,,"[OSD]切换到Vietnamese (越南文),菜单乱码"
-105,B,XG32WCMS63-166,In Progress,Bruce Wu,04/Feb/24 8:32 AM,,"[OSD]切换到Persian (波斯 语言),菜单乱码"
-106,B,XG32WCMS63-34,In Progress,Bruce Wu,27/Jan/24 1:34 PM,,[SYS] 调节Blue Light Filter的项目时反应慢。画面改变后，项目才选中
-107,B,XG32WCMS63-86,In Progress,Bruce Wu,29/Jan/24 11:35 AM,,[OSD] 机台Variable Refresh Rate开启时，机台中提示语与OSD TREE上不同
-108,B,XG32WCMS63-108,In Progress,Jason Huang,30/Jan/24 10:08 AM,,[OSD] 在HDMIsource 下，拔掉信号时会显示蓝屏并显示器“无信号”
+Priority,Issue key,Status,Assignee,Created,Custom field (VendorCR)
+C,XG32WCMS63-285,In Progress,Bruce Wu,29/Feb/24 10:03 AM,https://amtran.atlassian.net/browse/MONMTK-689
+B,XG32WCMS63-318,In Progress,Jason Huang,02/Mar/24 9:56 AM,
+B,XG32WCMS63-326,In Progress,Bruce Wu,04/Mar/24 9:19 AM,https://amtran.atlassian.net/browse/MONMTK-661
+B,XG32WCMS63-297,In Progress,Bruce Wu,29/Feb/24 4:22 PM,https://amtran.atlassian.net/browse/MONMTK-696
+C,XG32WCMS63-328,In Progress,Bruce Wu,04/Mar/24 9:52 AM,https://amtran.atlassian.net/browse/MONMTK-697
+B,XG32WCMS63-340,In Progress,Bruce Wu,05/Mar/24 1:39 PM,https://amtran.atlassian.net/browse/MONMTK-686
+B,XG32WCMS63-339,In Progress,Bruce Wu,05/Mar/24 1:16 PM,https://amtran.atlassian.net/browse/MONMTK-687
+B,XG32WCMS63-338,In Progress,Bruce Wu,05/Mar/24 1:09 PM,https://amtran.atlassian.net/browse/MONMTK-686
+B,XG32WCMS63-316,In Progress,Bruce Wu,01/Mar/24 4:21 PM,https://amtran.atlassian.net/browse/MONMTK-690
+B,XG32WCMS63-292,In Progress,Bruce Wu,29/Feb/24 3:08 PM,https://amtran.atlassian.net/browse/MONMTK-683
+B,XG32WCMS63-237,In Progress,Jason Huang,26/Feb/24 9:52 AM,https://amtran.atlassian.net/browse/MONMTK-642
+B,XG32WCMS63-183,In Progress,Jason Huang,14/Feb/24 11:51 AM,https://amtran.atlassian.net/browse/MONMTK-615
+B,XG32WCMS63-192,In Progress,Bruce Wu,17/Feb/24 12:01 PM,https://amtran.atlassian.net/browse/MONMTK-691
+B,XG32WCMS63-343,In Progress,Bruce Wu,05/Mar/24 2:48 PM,https://amtran.atlassian.net/browse/MONMTK-688
+B,XG32WCMS63-370,In Progress,Jason Huang,08/Mar/24 9:43 AM,https://amtran.atlassian.net/browse/MONMTK-695
+B,XG32WCMS63-345,In Progress,Jason Huang,05/Mar/24 4:22 PM,https://amtran.atlassian.net/browse/MONMTK-694
+B,XG32WCMS63-377,Open,Jason Huang,08/Mar/24 7:07 PM,
+B,XG32WCMS63-379,Open,Jason Huang,08/Mar/24 7:44 PM,
+B,XG32WCMS63-103,Open,DennisL,29/Jan/24 4:58 PM,
+C,XG32WCMS63-250,Reopened,Jason Huang,27/Feb/24 9:54 AM,
+B,XG32WCMS63-211,Open,Jason Huang,20/Feb/24 3:39 PM,
+B,XG32WCMS63-212,Open,Jason Huang,21/Feb/24 9:08 AM,
+B,XG32WCMS63-231,Open,Jason Huang,22/Feb/24 7:13 PM,
+B,XG32WCMS63-209,Reopened,Jason Huang,20/Feb/24 3:14 PM,
+B,XG32WCMS63-337,Open,Jason Huang,05/Mar/24 10:26 AM,
+B,XG32WCMS63-374,Open,Jason Huang,08/Mar/24 4:26 PM,
+B,XG32WCMS63-375,Open,Jason Huang,08/Mar/24 4:33 PM,
+A,XG32WCMS63-368,Open,Harris.Zhang,08/Mar/24 9:28 AM,
+A,XG32WCMS63-369,Open,Harris.Zhang,08/Mar/24 9:41 AM,
+B,XG32WCMS63-271,In Progress,Bruce Wu,28/Feb/24 3:33 PM,
+B,XG32WCMS63-310,In Progress,Bruce Wu,01/Mar/24 1:19 PM,
+B,XG32WCMS63-277,In Progress,Bruce Wu,28/Feb/24 7:14 PM,
+B,XG32WCMS63-206,Reopened,Jason Huang,20/Feb/24 3:09 PM,
+B,XG32WCMS63-147,In Progress,Bruce Wu,01/Feb/24 2:57 PM,
+B,XG32WCMS63-308,In Progress,Bruce Wu,01/Mar/24 11:12 AM,
+B,XG32WCMS63-130,In Progress,Jason Huang,31/Jan/24 10:40 AM,
+C,XG32WCMS63-301,In Progress,Bruce Wu,01/Mar/24 8:52 AM,
+B,XG32WCMS63-307,In Progress,Bruce Wu,01/Mar/24 11:07 AM,
+B,XG32WCMS63-267,In Progress,Bruce Wu,28/Feb/24 2:42 PM,
+B,XG32WCMS63-217,In Progress,Jason Huang,21/Feb/24 3:20 PM,
+B,XG32WCMS63-359,Open,allen.chen (TPE-Panel),05/Mar/24 5:10 PM,
+B,XG32WCMS63-344,Open,DennisL,05/Mar/24 4:14 PM,
+B,XG32WCMS63-293,Open,Jason Huang,29/Feb/24 3:18 PM,
+B,XG32WCMS63-333,In Progress,Bruce Wu,04/Mar/24 4:07 PM,
+B,XG32WCMS63-305,In Progress,Bruce Wu,01/Mar/24 10:50 AM,
+B,XG32WCMS63-332,In Progress,Bruce Wu,04/Mar/24 3:15 PM,
+B,XG32WCMS63-273,In Progress,Bruce Wu,28/Feb/24 4:00 PM,
+C,XG32WCMS63-283,In Progress,Bruce Wu,29/Feb/24 9:09 AM,
+B,XG32WCMS63-266,In Progress,Bruce Wu,28/Feb/24 2:39 PM,
+C,XG32WCMS63-334,In Progress,Bruce Wu,04/Mar/24 4:13 PM,
+B,XG32WCMS63-335,Open,Jason Huang,04/Mar/24 4:35 PM,
+B,XG32WCMS63-330,Open,Jason Huang,04/Mar/24 10:39 AM,
+B,XG32WCMS63-329,Open,Jason Huang,04/Mar/24 10:33 AM,
+B,XG32WCMS63-262,Open,Jason Huang,28/Feb/24 1:58 PM,
+B,XG32WCMS63-306,In Progress,Bruce Wu,01/Mar/24 10:58 AM,
+B,XG32WCMS63-303,In Progress,Bruce Wu,01/Mar/24 9:59 AM,
+B,XG32WCMS63-177,Reopened,Mikey.Yu(TPE-ME),06/Feb/24 4:41 PM,
+B,XG32WCMS63-320,In Progress,Jason Huang,02/Mar/24 2:01 PM,
+C,XG32WCMS63-321,In Progress,Jason Huang,02/Mar/24 2:08 PM,
+B,XG32WCMS63-322,In Progress,Jason Huang,02/Mar/24 2:18 PM,
+B,XG32WCMS63-323,In Progress,Jason Huang,02/Mar/24 2:49 PM,
+B,XG32WCMS63-315,In Progress,Bruce Wu,01/Mar/24 3:49 PM,
+B,XG32WCMS63-317,Open,Jason Huang,02/Mar/24 9:31 AM,
+B,XG32WCMS63-178,Reopened,allen.chen (TPE-Panel),07/Feb/24 2:58 PM,
+B,XG32WCMS63-309,In Progress,Bruce Wu,01/Mar/24 11:28 AM,
+B,XG32WCMS63-243,Open,DennisL,26/Feb/24 1:32 PM,
+B,XG32WCMS63-203,In Progress,Bruce Wu,20/Feb/24 11:28 AM,
+B,XG32WCMS63-300,In Progress,Bruce Wu,29/Feb/24 7:44 PM,
+B,XG32WCMS63-294,In Progress,Bruce Wu,29/Feb/24 3:33 PM,
+B,XG32WCMS63-291,In Progress,Bruce Wu,29/Feb/24 2:33 PM,
+B,XG32WCMS63-298,Open,Jason Huang,29/Feb/24 4:36 PM,
+B,XG32WCMS63-257,In Progress,Jason Huang,28/Feb/24 11:14 AM,
+B,XG32WCMS63-296,In Progress,Bruce Wu,29/Feb/24 4:11 PM,
+B,XG32WCMS63-290,Open,Jason Huang,29/Feb/24 2:23 PM,
+B,XG32WCMS63-276,Open,Jason Huang,28/Feb/24 6:55 PM,
+B,XG32WCMS63-253,Open,Jason Huang,27/Feb/24 1:26 PM,
+B,XG32WCMS63-252,Reopened,Jason Huang,27/Feb/24 1:24 PM,
+C,XG32WCMS63-251,Open,allen.chen (TPE-Panel),27/Feb/24 10:53 AM,
+B,XG32WCMS63-37,Reopened,DennisL,27/Jan/24 1:51 PM,
+B,XG32WCMS63-39,Reopened,DennisL,27/Jan/24 1:58 PM,
+B,XG32WCMS63-40,Reopened,DennisL,27/Jan/24 2:02 PM,
+B,XG32WCMS63-191,In Progress,Bruce Wu,17/Feb/24 10:54 AM,
+B,XG32WCMS63-190,In Progress,Bruce Wu,17/Feb/24 10:53 AM,
+B,XG32WCMS63-207,Reopened,Jason Huang,20/Feb/24 3:12 PM,
+B,XG32WCMS63-223,Reopened,Jason Huang,21/Feb/24 6:17 PM,
+B,XG32WCMS63-232,Open,Jason Huang,22/Feb/24 7:17 PM,
+B,XG32WCMS63-226,Open,allen.chen (TPE-Panel),22/Feb/24 8:57 AM,
+B,XG32WCMS63-227,In Progress,Jason Huang,22/Feb/24 9:25 AM,
+B,XG32WCMS63-188,In Progress,Bruce Wu,17/Feb/24 10:05 AM,
+B,XG32WCMS63-195,In Progress,Bruce Wu,19/Feb/24 10:08 AM,
+B,XG32WCMS63-220,In Progress,Bruce Wu,21/Feb/24 3:37 PM,
+B,XG32WCMS63-222,Open,Jason Huang,21/Feb/24 6:15 PM,
+B,XG32WCMS63-208,Open,Jason Huang,20/Feb/24 3:13 PM,
+B,XG32WCMS63-197,Reopened,Jason Huang,19/Feb/24 11:41 AM,
+B,XG32WCMS63-180,In Progress,Jason Huang,14/Feb/24 9:48 AM,
+B,XG32WCMS63-44,Reopened,Jason Huang,27/Jan/24 2:36 PM,
+B,XG32WCMS63-133,Reopened,Jason Huang,31/Jan/24 11:17 AM,
+B,XG32WCMS63-167,In Progress,Jason Huang,04/Feb/24 9:08 AM,
+B,XG32WCMS63-132,In Progress,Bruce Wu,31/Jan/24 11:07 AM,
+B,XG32WCMS63-157,In Progress,Bruce Wu,03/Feb/24 8:57 AM,
+C,XG32WCMS63-93,Open,Jason Huang,29/Jan/24 2:39 PM,
+B,XG32WCMS63-185,In Progress,Bruce Wu,15/Feb/24 11:02 AM,
+B,XG32WCMS63-102,In Progress,Bruce Wu,29/Jan/24 4:46 PM,
+B,XG32WCMS63-165,In Progress,Bruce Wu,04/Feb/24 8:24 AM,
+B,XG32WCMS63-168,In Progress,Bruce Wu,04/Feb/24 10:16 AM,
+B,XG32WCMS63-166,In Progress,Bruce Wu,04/Feb/24 8:32 AM,
+B,XG32WCMS63-34,In Progress,Bruce Wu,27/Jan/24 1:34 PM,
+B,XG32WCMS63-86,In Progress,Bruce Wu,29/Jan/24 11:35 AM,
+B,XG32WCMS63-108,In Progress,Jason Huang,30/Jan/24 10:08 AM,
