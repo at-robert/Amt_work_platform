@@ -3,19 +3,19 @@
     [
         {
             "group":"FW3_1",
-            "name":"GTBFO32U2P",
+            "name":"GTBFO27Q2",
             "space":"16",
             "subg":""
         },
         {
             "group":"FW3_1",
-            "name":"GTBFO32U2",
+            "name":"GTBMO32U",
             "space":"16",
             "subg":""
         },
         {
             "group":"FW3_1",
-            "name":"GTBFO27Q3",
+            "name":"GTBMO27Q2",
             "space":"16",
             "subg":""
         },
@@ -28,12 +28,6 @@
         {
             "group":"FW3_2",
             "name":"XG32WCS",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"GTBFO27Q2",
             "space":"16",
             "subg":""
         },
