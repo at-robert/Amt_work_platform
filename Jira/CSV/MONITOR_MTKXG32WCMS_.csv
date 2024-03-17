@@ -1,0 +1,45 @@
+Priority,Key,Status,Assignee,Summary,Created,VendorCR
+A,MONMTK-734,Open,stan_chang,[XG32WCMS] ELMB/ELMB sync 亮度變超暗,2024-03-15T18:15:24.369+0800,
+A,MONMTK-698,Open,stan_chang,[XG32WCMS] 打开HDR，叫出Menu OSD 每出现一次，屏幕就闪一次,2024-03-09T00:41:57.489+0800,https://amtran.atlassian.net/browse/XG32WCMS63-379
+A,MONMTK-567,Open,stan_chang,[XG32WCMS] 無法透過TypeC update FW,2024-01-31T17:10:43.250+0800,
+A,MONMTK-730,Open,stan_chang,[XG32WCMS] QHD@280Hz，天側會有橫條閃爍,2024-03-14T17:17:39.404+0800,"XG32WCMS63-384 , XG32WCMS63-380"
+B,MONMTK-677,Open,stan_chang,[XG32WCMS] 在HDMIsource 连接ASUS FA507笔记本，切换到分辨率2560*1440@120hz时，遮黑過程有杂音,2024-03-05T17:55:48.046+0800,https://amtran.atlassian.net/browse/XG32WCMS63-130
+B,MONMTK-720,Open,stan_chang,[XG32WCMS]HDMI source 接顯卡A750 部分更新率無法切換。,2024-03-13T18:49:08.229+0800,https://amtran.atlassian.net/browse/XG32WCMS63-383  https://amtran.atlassian.net/browse/XG32WCMS63-211
+B,MONMTK-733,Open,stan_chang,[XG32WCMS] PBP/PIP开启后，开启Sniper/Sniper Night Vision时，出现图标出画异,2024-03-15T15:51:36.024+0800,https://amtran.atlassian.net/browse/XG32WCMS63-409
+B,MONMTK-732,Open,stan_chang,"[XG32WCMS] ASUS NB M6500X，640*480@60hz/75hz,720*480@60hz No Signal",2024-03-15T15:29:07.351+0800,https://amtran.atlassian.net/browse/XG32WCMS63-248
+B,MONMTK-573,Open,stan_chang,[XG32WCMS] PBP mode mail source無訊號行為與OSD異常,2024-02-01T13:14:49.894+0800,
+B,MONMTK-644,Open,stan_chang,[XG32WCMS] 真睡眠的情況下，部分Key無法叫出Standby Menu,2024-02-27T17:18:02.426+0800,
+B,MONMTK-491,Open,stan_chang,[XG32WCMS] 開啟Night Vision功能異常,2023-12-11T15:00:47.725+0800,
+B,MONMTK-708,Open,stan_chang,[XG32WCMS] ELMB Sync 在60Hz開啟，畫面閃爍,2024-03-11T17:16:32.960+0800,https://amtran.atlassian.net/browse/XG32WCMS63-256
+B,MONMTK-691,Open,stan_chang,[XG32WCMS]PBP模式下，直接All Reset之後，只剩下60Hz，並且無法切換HDR。,2024-03-07T14:34:49.559+0800,https://amtran.atlassian.net/browse/XG32WCMS63-192
+B,MONMTK-694,Open,stan_chang,[XG32WCMS] HDMI连接PS5，测试1440p输出界面，VRR认证过程中，显示器荧幕下方闪烁,2024-03-08T09:35:18.769+0800,https://amtran.atlassian.net/browse/XG32WCMS63-345
+B,MONMTK-687,Open,stan_chang,[XG32WCMS]PBP模式且Auto Input Detection開啟的情況下，切換主畫面到無信號的Source時，不會自動切換到有信號的Source。,2024-03-07T09:05:40.584+0800,https://amtran.atlassian.net/browse/XG32WCMS63-293
+B,MONMTK-615,Open,stan_chang,[XG32WCMS] PIP功能开启后，切换子画面位置时，子画面会闪一下,2024-02-15T15:13:38.916+0800,https://amtran.atlassian.net/browse/XG32WCMS63-183
+B,MONMTK-717,Open,stan_chang,[XG32WCMS] Reset後EDID沒讀取至預設狀態，VRR、PIPPBP、Aspect Control,2024-03-13T17:59:26.215+0800,XG32WCMS63-410
+B,MONMTK-726,Open,stan_chang,[XG32WCMS][OSD]开启ELMB功能后，做reset后。没有回到初始值,2024-03-14T11:02:54.841+0800,
+B,MONMTK-617,Open,stan_chang,[XG32WCMS]在HDMI source時，開啟大鐘擺 “G-SYNC Pendulum Demo Configuration”時，畫面背光閃爍,2024-02-15T15:40:01.336+0800,https://amtran.atlassian.net/browse/XG32WCMS63-132
+B,MONMTK-613,Reopened,stan_chang,[XG32WCMS]調整Display Color Space内的sRGB，DCI-P3和Wide Gamut時，閃爍白色細橫線。,2024-02-15T14:49:41.372+0800,https://amtran.atlassian.net/browse/XG32WCMS63-157
+B,MONMTK-716,Open,stan_chang,[XG32WCMS]HDMI source 連接RX6900，在3840X2160@120hz下，開關HDR切換當中畫異。,2024-03-13T11:08:25.937+0800,https://amtran.atlassian.net/browse/XG32WCMS63-375
+B,MONMTK-713,Open,stan_chang,"[XG32WCMS]PBP模式下，使用All Reset後,第一次開PBP功能時，會無法開啟。",2024-03-13T10:14:40.375+0800,https://amtran.atlassian.net/browse/XG32WCMS63-394
+B,MONMTK-712,Open,stan_chang,[XG32WCMS]GameVisual模式互相切換時，有機率會出現閃白線，位置不固定。,2024-03-12T10:40:59.932+0800,https://amtran.atlassian.net/browse/XG32WCMS63-262
+B,MONMTK-711,Open,stan_chang,[XG32WCMS]Type C Source，只要有接著，無論有沒有信號來源，都顯示有TypeC,2024-03-11T21:36:52.747+0800,
+B,MONMTK-660,Open,stan_chang,[XG32WCMS]OSD選單，左右切換到Bar功能時，Bar條的左右兩側偶爾隨機出現橫條。,2024-03-04T10:20:38.923+0800,https://amtran.atlassian.net/browse/XG32WCMS63-303
+B,MONMTK-661,Open,stan_chang,[XG32WCMS]自動切換Soruce時，先進入待機狀態(LED橘燈)後，才切換到新的Source。,2024-03-04T10:53:07.914+0800,https://amtran.atlassian.net/browse/XG32WCMS63-326
+B,MONMTK-678,Open,stan_chang,"[XG32WCMS] 使用ASUS笔记本FA507,在Typec source 下，连接780M，分辨率1600x1220@60hz切换到1920x1080@60hz，屏幕右边画面卡顿",2024-03-05T18:02:21.570+0800,https://amtran.atlassian.net/browse/XG32WCMS63-217
+B,MONMTK-696,Open,stan_chang,[XG32WCMS] 在ELMB Setup選單中，設定Clarity Position下的Top、Middle、Buttom，無對應反映。,2024-03-08T14:39:01.278+0800,https://amtran.atlassian.net/browse/XG32WCMS63-297
+B,MONMTK-709,Open,stan_chang,[XG32WCMS] 机台ELMB SYNC开启时，机台中提示语与OSD TREE上不同,2024-03-11T17:32:56.372+0800,https://amtran.atlassian.net/browse/XG32WCMS63-87
+B,MONMTK-706,Open,stan_chang,[XG32WCMS] HDR Setting 細項的明细机台OSD/OSDtree菜单与 OSD Gaming Header Definition中的项目不同,2024-03-11T16:28:09.416+0800,https://amtran.atlassian.net/browse/XG32WCMS63-388
+B,MONMTK-690,Open,stan_chang,[XG32WCMS]PIP/PBP模式下，使用自訂設定Save後，離開PIP/PBP模式，此時Load設定無法切換到PIP/PBP模式。,2024-03-07T11:17:38.387+0800,
+B,MONMTK-638,Reopened,stan_chang,[XG32WCMS]在DP source 下，插拔type c 信號時沒有跳出INPUT MINI OSD選單,2024-02-26T13:29:34.446+0800,
+B,MONMTK-669,Open,stan_chang,[XG32WCMS]拔除Type C Source時，Input選單的Type C選項一直到Time out都沒消失，再次叫出INPUT選單時才消失。,2024-03-05T09:46:09.648+0800,
+B,MONMTK-598,Reopened,stan_chang,[XG32WCMS]切換到越南文，選單亂碼,2024-02-05T16:13:05.909+0800,XG32WCMS63-168
+B,MONMTK-702,Open,stan_chang,[XG32WCMS]HDR模式下，Display port 1.2不應該可以選擇，與OSD tree不符。,2024-03-11T10:26:47.840+0800,https://amtran.atlassian.net/browse/XG32WCMS63-290
+B,MONMTK-666,Open,stan_chang,[XG32WCMS]在Color Temp功能下使用User Mode調整RGB之後使用All Reset，RGB數值恢復但顏色沒變。,2024-03-04T17:59:53.858+0800,https://amtran.atlassian.net/browse/XG32WCMS63-266
+B,MONMTK-657,Open,stan_chang,[XG32WCMS] 语言调节到Bahasa Indonesia(印度尼西亚语)，System Setup字体显示超出,2024-03-03T00:19:12.710+0800,https://amtran.atlassian.net/browse/XG32WCMS63-322
+B,MONMTK-628,Open,stan_chang,[XG32WCMS]核對語言翻譯錯誤,2024-02-22T13:32:38.316+0800,https://amtran.atlassian.net/browse/XG32WCMS63-188
+B,MONMTK-731,Open,stan_chang,[XG32WCMS] [SYS] DisplayWidgetCenter 缺失 2 VCP commands,2024-03-14T20:23:23.700+0800,
+C,MONMTK-729,Open,stan_chang,[XG32WCMS]PBP移除主畫面Source時，開啟OSD選單錯誤。,2024-03-14T13:26:32.621+0800,
+C,MONMTK-714,Open,stan_chang,"[XG32WCMS]DP source 連接3080 ,播放音樂，3840X2160@60HZ（HDR）下，關閉HDR，切換過程中依然有聲音輸出。",2024-03-13T10:39:13.883+0800,https://amtran.atlassian.net/browse/XG32WCMS63-377
+C,MONMTK-608,Open,stan_chang,"[XG32WCMS]""""Timer-Out"""" Behavior for Key Menu / Key Menu + Main Menu 錯誤",2024-02-15T11:02:15.191+0800,https://amtran.atlassian.net/browse/XG32WCMS63-102
+C,MONMTK-600,Open,stan_chang,[XG32WCMS]13種以上語種的Display Alignment的翻譯亂碼,2024-02-05T17:14:46.003+0800,
+C,MONMTK-703,Open,stan_chang,[XG32WCMS]連接20m的HDMI線的時候，無法出畫且留在待機(橘燈)。,2024-03-11T13:09:26.722+0800,https://amtran.atlassian.net/browse/XG32WCMS63-252

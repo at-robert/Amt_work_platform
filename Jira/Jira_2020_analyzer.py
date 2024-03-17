@@ -5,6 +5,7 @@ import re
 import time
 import io
 import platform
+import pandas as pd
 
 from jira import JIRA
 import json
@@ -16,11 +17,14 @@ FILE_PATH_JIRA_CERT=r"D:\work_platform\Jira\auth_amt"
 FILE_PATH_MODELS_JSON=r"D:\work_platform\Github\Amt_work_platform\Jira\models.json"
 # For testing
 # FILE_PATH_MODELS_JSON=r"D:\work_platform\Github\Amt_work_platform\Jira\models_test.json"
+FILE_PATH_JIRA_CSV=r"D:\work_platform\Github\Amt_work_platform\Jira\CSV\\"
+
 
 FILE_PATH_JIRA_CERT_MAC= pwd + 'Documents/CERT/auth_amt'
 FILE_PATH_MODELS_JSON_MAC= pwd + 'Documents/Github/Amt_work_platform/Jira/models.json'
 # For testing
 # FILE_PATH_MODELS_JSON_MAC= pwd + 'Documents/Github/Amt_work_platform/Jira/models_test.json'
+FILE_PATH_JIRA_CSV_MAC= pwd + 'Documents/Github/Amt_work_platform/Jira/CSV/'
 
 # NOTE: The parameter 'displayName' (Assignee Name) could be changed for time to time
 # Just print out the fields value in order to find out what the parameter name is
@@ -33,9 +37,41 @@ def get_assignee_name(_issue):
     return _issue.raw['fields']['assignee']['displayName']
 
 #----------------------------------------------------------------------
-def print_jira_status(jira, jql_open, jql_resolved, proj_name, speical_word = '[XXXXX]'):
+def jira_to_csv(search_result_, project_name_,para_):
+
+    data = [[issue.fields.priority,issue.key, issue.fields.status,issue.fields.assignee, issue.fields.summary, issue.fields.created,issue.raw['fields']['customfield_10040']]
+    for issue in search_result_]
+
+    # for issue in search_result_:
+    #     print (issue.raw['fields']['customfield_10040'])
+
+    header = ["Priority","Key", "Status","Assignee", "Summary", "Created","VendorCR"]
+ 
+    df = pd.DataFrame(data, columns=header)
+
+    # print(project_name_,df)
+
+    # Output csv files
+    if (platform.system() == 'Darwin'):
+        str_ =  project_name_ + para_
+        str_ = str_.replace("/", "_")
+        str_ = FILE_PATH_JIRA_CSV_MAC + str_ 
+        print("output str = {} , proj = {} , para = {}".format(str_, project_name_,para_))
+        df.to_csv(str_ + '_' + '.csv',index=False)
+    else:
+        str_ = Fproject_name_ + para_
+        str_ = str_.replace("/", "_")
+        str_ = FILE_PATH_JIRA_CSV + str_
+        df.to_csv(str_ +  '_' + '.csv',index=False)
+
+
+#----------------------------------------------------------------------
+def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_word = '[XXXXX]'):
 
     all_proj_issues = jira.search_issues(jql_open,maxResults=0)
+
+    # print("proj_name = {} , jira_name = {}".format(proj_name, para_))
+    jira_to_csv(all_proj_issues,proj_name,para_)
 
     # print ("{} Opening issues:".format(proj_name))
     A_Cout = 0
@@ -55,8 +91,9 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, speical_word = '[
 
     # for issue in all_proj_issues:
     # # print out the raw data of the all fields
-    #     for field_name in issue.raw['fields']:
-    #         print ("Field:", field_name, "Value:", issue.raw['fields'][field_name])
+    # issue = all_proj_issues[0]
+    # for field_name in issue.raw['fields']:
+    #     print ("Field:", field_name, "Value:", issue.raw['fields'][field_name])
 
     # return
 
@@ -295,8 +332,9 @@ def print_group(para_in_, str_):
         # print ("Project leader = " + (jra.lead._session['displayName']))
         jql_open,jql_resolved = jql_string_process(para, project_key)
 
+
         # print(" jql_open = {} , jql_resolved = {} \n".format(jql_open, jql_resolved)) 
-        print_jira_status(jira,jql_open, jql_resolved, jra.name)
+        print_jira_status(jira,jql_open, jql_resolved, jra.name, para)
         print ("=============================================================")
         # # ALL ============================================================= END
 

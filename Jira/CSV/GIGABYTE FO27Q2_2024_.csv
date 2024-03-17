@@ -1,0 +1,36 @@
+Priority,Key,Status,Assignee,Summary,Created,VendorCR
+A,GTBFO27Q2-51,Open,roger.chen(TPE-HW),低温结露测试中检查发现不开机（呼吸灯亮，喇叭有声音）,2024-03-16T15:27:29.186+0800,
+B,GTBFO27Q2-33,Reopened,Andy Fang,机台屏幕有膜HDR下亮度不达标,2024-03-14T11:06:28.182+0800,
+B,GTBFO27Q2-45,Open,gary.su@amtran.com.tw,HDR无法测试,2024-03-15T08:56:42.769+0800,
+B,GTBFO27Q2-39,Open,allen.chen (TPE-Panel),"[PQ] HDMI/DP连接显卡RX 6800 XT,进入英雄联盟游戏  准备界面画面背光闪烁",2024-03-14T15:19:48.404+0800,
+B,GTBFO27Q2-49,Open,mark.lin(TPE-SW),连接任意显卡/任意source，Audio→ESS Headset→Headphone+Mic(USB)，菜单开启静音，实际没有静音,2024-03-15T13:29:26.417+0800,
+B,GTBFO27Q2-36,Open,mark.lin(TPE-SW),[SYS] Eagle Eye狙击镜开启，Night Vision开启，自定义倍率过程中窗口画面瞬间闪烁一下,2024-03-14T13:42:37.586+0800,https://amtran.atlassian.net/browse/GIGAREAL-1230
+B,GTBFO27Q2-48,Open,mark.lin(TPE-SW),任意source播放任意音源，Audio→ESS Headset→Headphone+Mic(USB)，菜单还原重置过程中直至再次出画耳机内依旧有声音,2024-03-15T11:40:42.765+0800,
+B,GTBFO27Q2-47,Open,mark.lin(TPE-SW),左键唤出音量进度条，一步一步 向上/向下增加或递减音量过程中，高概率跳出“黑平衡2.0/影像模式”快捷方式,2024-03-15T11:26:38.181+0800,
+B,GTBFO27Q2-27,Open,mark.lin(TPE-SW),"[OSD] DP source连接显卡RX 6800 XT,HDR为开启，菜单选择还原后，中下方跳出”DP FreeSync HDR""对话框（如图）",2024-03-13T16:57:13.749+0800,https://amtran.atlassian.net/browse/GIGAREAL-1218
+B,GTBFO27Q2-43,Open,roger.chen(TPE-HW),拆机检查发现开关连接线有折断风险,2024-03-14T18:15:19.426+0800,
+B,GTBFO27Q2-35,Open,mark.lin(TPE-SW),[OSD] “FreeSync Premium Pro”由默认开启切为关闭，菜单再还原重置，菜单上方“FreeSync Premium Pro”显示为关闭，且显卡内显示不支持,2024-03-14T11:47:46.972+0800,
+B,GTBFO27Q2-37,Open,mark.lin(TPE-SW),"[OSD] HDMI1/2,Type-C source连接华硕 G634J笔电，Display Mode自定义后再把FreeSync Premium Pro切为开启，此时Display Mode项子菜单未反灰",2024-03-14T14:31:38.500+0800,https://amtran.atlassian.net/browse/GIGAREAL-1232
+B,GTBFO27Q2-34,Open,mark.lin(TPE-SW),[SYS] HDMI1/2，DP，Type-C  source连接显卡RTX 2070 缺少多个刷新率,2024-03-14T11:08:47.601+0800,
+B,GTBFO27Q2-42,Open,mark.lin(TPE-SW),[OSD] Game Assist→系统资讯窗反复开启/关闭后，“开启”项出现乱码（语言为繁中/简中）,2024-03-14T15:50:53.343+0800,
+B,GTBFO27Q2-18,Open,mark.lin(TPE-SW),"[SYS] HDMI1/2 source连接RX 6800 XT,分辨率无法切至2560×1440@240HZ",2024-03-13T13:28:30.020+0800,https://amtran.atlassian.net/browse/GIGAREAL-1220
+B,GTBFO27Q2-20,Open,mark.lin(TPE-SW),[SYS] 连接任意显卡/任意source，Audio→ESS Headset→Headphone+Mic(USB)时，无法加减音量,2024-03-13T14:58:33.554+0800,https://amtran.atlassian.net/browse/GIGAREAL-1219
+B,GTBFO27Q2-23,Open,mark.lin(TPE-SW),"[OSD] 连接任意显卡/source，HDR为开启, 菜单还原重置后画面亮度肉眼可见偏高",2024-03-13T16:13:05.821+0800,https://amtran.atlassian.net/browse/GIGAREAL-1217
+B,GTBFO27Q2-26,Open,mark.lin(TPE-SW),[OSD] 图像模式为”HDR  Vivid“，Brightness/Contrast/Color Enhance/Light Enhance项Default值与0306版 OSD tree定义不符（如图）,2024-03-13T16:45:39.887+0800,https://amtran.atlassian.net/browse/GIGAREAL-1213
+B,GTBFO27Q2-25,Open,mark.lin(TPE-SW),[OSD] 图像模式为”HDR Movie”，Brightness/Contrast/APL Stabilize项Default值与0306版 OSD tree定义不符（如图）,2024-03-13T16:40:43.246+0800,https://amtran.atlassian.net/browse/GIGAREAL-1213
+B,GTBFO27Q2-24,Open,mark.lin(TPE-SW),[OSD] 图像模式为”HDR Game”，Brightness/Contrast/Light Enhance项Default值与0306版 OSD tree定义不符（如图）,2024-03-13T16:35:49.774+0800,https://amtran.atlassian.net/browse/GIGAREAL-1213
+B,GTBFO27Q2-22,Open,mark.lin(TPE-SW),"[OSD] 显示器菜单内显示使用时间为2Hours,""Start Cleaning""项未反灰，可进行除烙印",2024-03-13T15:35:33.968+0800,https://amtran.atlassian.net/browse/GIGAREAL-1216
+B,GTBFO27Q2-21,Open,mark.lin(TPE-SW),[OSD] 显示器进行过除烙印前提下，菜单语言为“繁中”时，“防烙印清理-完成次数”为空白（如图）,2024-03-13T15:26:22.149+0800,https://amtran.atlassian.net/browse/GIGAREAL-1215
+B,GTBFO27Q2-19,Open,mark.lin(TPE-SW),"[SYS] HDMI1 连接RX 6800 XT,按KVM快捷键切至该source时画面概率性闪一瞬间蓝屏",2024-03-13T13:37:29.723+0800,https://amtran.atlassian.net/browse/GIGAREAL-1214
+B,GTBFO27Q2-12,Open,mark.lin(TPE-SW),"[OSD] 图像模式为”FPS""时，Contrast/Color Vibrance/Color Temperature项Default值与0306版 OSD tree定义不符（如图）",2024-03-13T10:44:41.592+0800,https://amtran.atlassian.net/browse/GIGAREAL-1213
+B,GTBFO27Q2-13,Open,mark.lin(TPE-SW),[OSD] 图像模式为“MOBA”时，Sharpness项Default值与0306版 OSD tree定义不符(如图）,2024-03-13T10:50:27.360+0800,https://amtran.atlassian.net/browse/GIGAREAL-1213
+B,GTBFO27Q2-14,Open,mark.lin(TPE-SW),[OSD] 图像模式为”RPG“时，Contrast项Default值与0306版 OSD tree定义不符（如图）,2024-03-13T10:56:39.908+0800,https://amtran.atlassian.net/browse/GIGAREAL-1213
+B,GTBFO27Q2-15,Open,mark.lin(TPE-SW),[OSD] 图像模式为”Movie”时，Brightness/Sharpness项Default值与0306版 OSD tree定义不符（如图）,2024-03-13T11:05:37.023+0800,https://amtran.atlassian.net/browse/GIGAREAL-1213
+B,GTBFO27Q2-11,Open,mark.lin(TPE-SW),[OSD] 显示器待机状态下，Other菜单内缺少 0306版 OSD tree所定义”USB 3.2 Support“项（如图）,2024-03-13T10:30:47.086+0800,https://amtran.atlassian.net/browse/GIGAREAL-1212
+B,GTBFO27Q2-10,Open,mark.lin(TPE-SW),[OSD] Setting→System→Other Settings子菜单对比0306版OSD tree实际缺少”USB 3.2 Support“项（如图）,2024-03-13T10:21:30.029+0800,https://amtran.atlassian.net/browse/GIGAREAL-1212
+B,GTBFO27Q2-9,Open,mark.lin(TPE-SW),[OSD] Setting→System→Langauge对比0306版OSD tree实际缺少”українська“语言(如图）,2024-03-13T10:13:43.599+0800,客戶評估還在是否導入
+B,GTBFO27Q2-7,Open,mark.lin(TPE-SW),[OSD] 0306版 OSD tree“Second Layer (Main menu)”页定义主菜单下方为“Turn off”，实际为power off（如图）,2024-03-13T09:56:03.283+0800,需修改OSD TREE
+B,GTBFO27Q2-5,Open,mark.lin(TPE-SW),"[OSD] GameAssist→Eagle Eye→ON,对比0306版OSD tree实际多出Size/Night Vision项(如图）",2024-03-13T09:24:21.913+0800,https://amtran.atlassian.net/browse/GIGAREAL-1210
+B,GTBFO27Q2-6,Open,mark.lin(TPE-SW),[OSD] GameAssist子菜单对比0306版OSD tree实际缺少Night Vision项（如图）,2024-03-13T09:28:47.586+0800,https://amtran.atlassian.net/browse/GIGAREAL-1210
+B,GTBFO27Q2-4,Open,mark.lin(TPE-SW),[OSD] GameAssist→Tactical Switch→Function  子菜单对比0306版OSD tree缺少Eagle Eye/Night Vision项（如图）,2024-03-13T09:18:37.388+0800,https://amtran.atlassian.net/browse/GIGAREAL-1209
+C,GTBFO27Q2-41,Open,mark.lin(TPE-SW),[OSD] 菜单切换显示模式（画面比例）或 RGB信号范围模式切换时，显示器画面遮黑，OSD菜单不消失,2024-03-14T15:44:30.496+0800,https://amtran.atlassian.net/browse/GIGAREAL-1233
