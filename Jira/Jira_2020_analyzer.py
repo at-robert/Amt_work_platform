@@ -10,6 +10,8 @@ import pandas as pd
 from jira import JIRA
 import json
 
+from datetime import datetime
+
 pwd = os.path.expanduser('~') + '/'
 
 LJUST=12
@@ -36,10 +38,18 @@ def get_assignee_name(_issue):
 
     return _issue.raw['fields']['assignee']['displayName']
 
+#--------------------------------------------------------------
+def time_str_covert(time_str):
+
+    dt = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%S.%f%z")
+    desired_format = "%m/%d/%Y %H:%M:%S"
+    return dt.strftime(desired_format)
+
+
 #----------------------------------------------------------------------
 def jira_to_csv(search_result_, project_name_,para_):
 
-    data = [[issue.fields.priority,issue.key, issue.fields.status,issue.fields.assignee,issue.fields.created,issue.raw['fields']['customfield_10040'],issue.fields.summary]
+    data = [[issue.fields.priority,issue.key, issue.fields.status,issue.fields.assignee,time_str_covert(issue.fields.created),issue.raw['fields']['customfield_10040'],issue.fields.summary]
     for issue in search_result_]
 
     # for issue in search_result_:

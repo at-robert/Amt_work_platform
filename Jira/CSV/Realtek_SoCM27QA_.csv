@@ -1,22 +1,22 @@
 Priority,Key,Status,Assignee,Created,VendorCR,Summary
-A,GIGAREAL-1185,Open,Robert Wang,2024-03-11T18:36:43.804+0800,,[GBT][M27QA][SYS] 任意source下，HDR打開，PIP/PBP 開啟後，画面顯示異常
-B,GIGAREAL-1229,Open,Robert Wang,2024-03-14T14:57:01.310+0800,,[GBT][M27QA][SYS]AMD FreeSync 開啟，HDMI連接PS5，無法開啟VRR
-B,GIGAREAL-1201,Open,Robert Wang,2024-03-12T01:16:48.839+0800,,[GBT][M27QA][SYS]PIP/PBP模式下，sub source無套用input auto switch功能
-B,GIGAREAL-1198,Open,Robert Wang,2024-03-12T01:02:33.163+0800,,[GBT][M27QA][SYS]DP接上A卡W7800，並開啟QHD@180Hz + HDR，HDR無法開啟
-B,GIGAREAL-1196,Open,Robert Wang,2024-03-12T00:56:58.016+0800,,[GBT][M27QA][SYS] 訊號滿載下，插拔HDMI(PS5)無訊號
-B,GIGAREAL-1194,Open,Robert Wang,2024-03-12T00:47:36.255+0800,,[GBT][M27QA][SYS]USB(A/C) Charge OFF + Input Auto Switch OFF後，當進入power saving後，input source 自動切換到typeC
-B,GIGAREAL-1193,Open,Robert Wang,2024-03-12T00:36:20.617+0800,,[GBT][M27QA][SYS]USB(A/C) Charge OFF時，USB A/C皆不可充電
-B,GIGAREAL-1200,Open,Robert Wang,2024-03-12T01:12:14.749+0800,,[GBT][M27QA][SYS]輸入訊號延遲過大
-B,GIGAREAL-1208,Open,Robert Wang,2024-03-13T11:12:53.056+0800,,[GBT][M27QA][AUDIO] HDMI 輸出使用32歐姆耳機，顯示器DC off/on，有雜音
-B,GIGAREAL-1203,Open,Robert Wang,2024-03-12T15:05:40.545+0800,,[GBT][M27QA][OSD]العربية語言，RGB Range與下一列的RGB顯示亂碼
-B,GIGAREAL-1178,Open,Robert Wang,2024-03-07T13:41:03.617+0800,,[GBT][M27QA][SYS]Eagle Eye開啟後，Ratio 1.5和2.0互切時畫面會遮黑
-B,GIGAREAL-1182,Open,Robert Wang,2024-03-07T14:21:37.234+0800,,[GBT][M27QA][SYS]開啟PIP/PBP下，調節Low Blue Light時，Sub畫面也會跟隨調整
-B,GIGAREAL-1179,Open,Robert Wang,2024-03-07T13:42:25.307+0800,,[GBT][M27QA][SYS]Eagle Eye開啟後，上下左右調整位置時，長按無作用
-C,GIGAREAL-1231,Open,Robert Wang,2024-03-14T16:23:14.866+0800,,[GBT][M27QA][VIDEO] HDMI2切换至HDMI1（連接PS5設備）source時，螢幕中央閃紅色對話框
-C,GIGAREAL-1228,Open,Robert Wang,2024-03-14T14:45:03.300+0800,,[GBT][M27QA][SYS]KVM Wizard的Control1設定到Type-C，在切回HDMI後，滑鼠/鍵盤無法操作
-C,GIGAREAL-1197,Open,Robert Wang,2024-03-12T00:59:33.038+0800,,[VIDEO] HDMI2切換至HDMI1(PS5) 時，閃出紅色POP Message
-C,GIGAREAL-1195,Open,Robert Wang,2024-03-12T00:52:32.035+0800,,[GBT][M27QA][OSD]調整色溫與Gamma，Main OSD Title沒有馬上更新
-C,GIGAREAL-1192,Open,Robert Wang,2024-03-12T00:31:42.074+0800,,[GBT][M27QA][OSD]開啟Freesync時，Display Mode /overscan / PIP/PBP須反灰
-C,GIGAREAL-1191,Open,Robert Wang,2024-03-12T00:26:48.466+0800,,[GBT][M27QA][OSD]Aim stabilizer ON/OFF時，沒有跳出POP Message
-C,GIGAREAL-1176,Open,Robert Wang,2024-03-07T13:33:59.056+0800,https://amtran.atlassian.net/jira/core/projects/GTBM27QAB/issues/GTBM27QAB-3,[GBT][M27QA][OSD]Main Menu字體模糊
-C,GIGAREAL-1177,Open,Robert Wang,2024-03-07T13:37:57.352+0800,,[GBT][M27QA][OSD]GameAssist->Game Info字體應如OSD小寫
+A,GIGAREAL-1185,Open,Robert Wang,03/11/2024 18:36:43,,[GBT][M27QA][SYS] 任意source下，HDR打開，PIP/PBP 開啟後，画面顯示異常
+B,GIGAREAL-1229,Open,Robert Wang,03/14/2024 14:57:01,,[GBT][M27QA][SYS]AMD FreeSync 開啟，HDMI連接PS5，無法開啟VRR
+B,GIGAREAL-1201,Open,Robert Wang,03/12/2024 01:16:48,,[GBT][M27QA][SYS]PIP/PBP模式下，sub source無套用input auto switch功能
+B,GIGAREAL-1198,Open,Robert Wang,03/12/2024 01:02:33,,[GBT][M27QA][SYS]DP接上A卡W7800，並開啟QHD@180Hz + HDR，HDR無法開啟
+B,GIGAREAL-1196,Open,Robert Wang,03/12/2024 00:56:58,,[GBT][M27QA][SYS] 訊號滿載下，插拔HDMI(PS5)無訊號
+B,GIGAREAL-1194,Open,Robert Wang,03/12/2024 00:47:36,,[GBT][M27QA][SYS]USB(A/C) Charge OFF + Input Auto Switch OFF後，當進入power saving後，input source 自動切換到typeC
+B,GIGAREAL-1193,Open,Robert Wang,03/12/2024 00:36:20,,[GBT][M27QA][SYS]USB(A/C) Charge OFF時，USB A/C皆不可充電
+B,GIGAREAL-1200,Open,Robert Wang,03/12/2024 01:12:14,,[GBT][M27QA][SYS]輸入訊號延遲過大
+B,GIGAREAL-1208,Open,Robert Wang,03/13/2024 11:12:53,,[GBT][M27QA][AUDIO] HDMI 輸出使用32歐姆耳機，顯示器DC off/on，有雜音
+B,GIGAREAL-1203,Open,Robert Wang,03/12/2024 15:05:40,,[GBT][M27QA][OSD]العربية語言，RGB Range與下一列的RGB顯示亂碼
+B,GIGAREAL-1178,Open,Robert Wang,03/07/2024 13:41:03,,[GBT][M27QA][SYS]Eagle Eye開啟後，Ratio 1.5和2.0互切時畫面會遮黑
+B,GIGAREAL-1182,Open,Robert Wang,03/07/2024 14:21:37,,[GBT][M27QA][SYS]開啟PIP/PBP下，調節Low Blue Light時，Sub畫面也會跟隨調整
+B,GIGAREAL-1179,Open,Robert Wang,03/07/2024 13:42:25,,[GBT][M27QA][SYS]Eagle Eye開啟後，上下左右調整位置時，長按無作用
+C,GIGAREAL-1231,Open,Robert Wang,03/14/2024 16:23:14,,[GBT][M27QA][VIDEO] HDMI2切换至HDMI1（連接PS5設備）source時，螢幕中央閃紅色對話框
+C,GIGAREAL-1228,Open,Robert Wang,03/14/2024 14:45:03,,[GBT][M27QA][SYS]KVM Wizard的Control1設定到Type-C，在切回HDMI後，滑鼠/鍵盤無法操作
+C,GIGAREAL-1197,Open,Robert Wang,03/12/2024 00:59:33,,[VIDEO] HDMI2切換至HDMI1(PS5) 時，閃出紅色POP Message
+C,GIGAREAL-1195,Open,Robert Wang,03/12/2024 00:52:32,,[GBT][M27QA][OSD]調整色溫與Gamma，Main OSD Title沒有馬上更新
+C,GIGAREAL-1192,Open,Robert Wang,03/12/2024 00:31:42,,[GBT][M27QA][OSD]開啟Freesync時，Display Mode /overscan / PIP/PBP須反灰
+C,GIGAREAL-1191,Open,Robert Wang,03/12/2024 00:26:48,,[GBT][M27QA][OSD]Aim stabilizer ON/OFF時，沒有跳出POP Message
+C,GIGAREAL-1176,Open,Robert Wang,03/07/2024 13:33:59,https://amtran.atlassian.net/jira/core/projects/GTBM27QAB/issues/GTBM27QAB-3,[GBT][M27QA][OSD]Main Menu字體模糊
+C,GIGAREAL-1177,Open,Robert Wang,03/07/2024 13:37:57,,[GBT][M27QA][OSD]GameAssist->Game Info字體應如OSD小寫

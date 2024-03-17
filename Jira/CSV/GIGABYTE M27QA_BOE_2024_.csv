@@ -1,35 +1,35 @@
 Priority,Key,Status,Assignee,Created,VendorCR,Summary
-B,GTBM27QAB-66,Open,joe.hsiao,2024-03-16T09:50:00.353+0800,,HDMI source连接6900，在分辨率1280X720@60HZ下，插拔信号，显示器会遮黑两次
-B,GTBM27QAB-67,Open,joe.hsiao,2024-03-16T10:14:46.388+0800,,HDMI source 连接6900，Typec source 连接G634JZ笔记本，从typec source 分辨率切换到HDMI source 1920x1080@60HZ，会遮黑两次
-B,GTBM27QAB-36,Reopened,joe.hsiao,2024-03-07T16:16:44.906+0800,,[AUDIO] 任意source，连接 （EDIFIER ，32欧）耳机，耳机持续传出杂音
-B,GTBM27QAB-64,Open,joe.hsiao,2024-03-16T09:15:08.977+0800,,"PIP/PBP状态下，不应支持HDR ,实际机台HDR依旧可以打开，且画面异常"
-B,GTBM27QAB-10,Open,Alvin Hsieh(TPE-Audio),2024-03-06T13:42:06.179+0800,https://amtran.atlassian.net/browse/GIGAREAL-1208,[AUDIO] HDMI 连接RTX3050，连接 （EDIFIER ，32欧）耳机，显示器DCoff/on，有杂音
-B,GTBM27QAB-24,Open,joey.huang,2024-03-06T16:33:45.982+0800,EE Panel issue,屏幕和前框缝隙空气放电，8KV 10KV 15KV，概率性出现气泡
-B,GTBM27QAB-39,Open,joey.huang,2024-03-08T08:19:38.637+0800,Panel issue,[PANEL] 任意source下，解析度4K 60HZ时，使用小苹果软件，打开Gray step  E-O画面，显示器背光闪烁
-B,GTBM27QAB-49,Open,joey.huang,2024-03-09T09:13:11.206+0800,Panel issue,高低温开机静置测试后检查发现天侧漏光
-B,GTBM27QAB-61,Open,joey.huang,2024-03-15T08:51:28.818+0800,Panel issue,[PANEL] 压迫性漏光
-B,GTBM27QAB-62,Open,joey.huang,2024-03-15T08:53:01.082+0800,Panel issue,[PANEL] 天侧OC间隙漏光
-B,GTBM27QAB-48,Reopened,Mars.Tian(RAKEN-QRE),2024-03-08T19:18:12.935+0800,,[PQ] 机台DCI-P3 coverage不达标
-B,GTBM27QAB-43,Open,Bob Chang,2024-03-08T09:34:08.451+0800,FW internal issue,[OSD]ENG SPEC上的充电功率 与OSDtree不一致
-B,GTBM27QAB-26,Open,Bob Chang,2024-03-07T08:57:04.542+0800,FW internal issue,"[SYS] 开机与待机状态下，充电功率, 与OSDtree定义不符"
-B,GTBM27QAB-44,Open,joe.hsiao,2024-03-08T10:01:45.441+0800,FW internal issue,[OSD] ENG SPEC上的timing list / 菜单选项，与OSDtree多处不一致
-B,GTBM27QAB-17,Reopened,Bob Chang,2024-03-06T15:37:18.689+0800,https://amtran.atlassian.net/browse/GIGAREAL-1190,[OSD]HDR开启，显示器开机，切换信号，调整解析度，荧幕中央跳出的对话框排版，与OSDtree示意图不一致
-B,GTBM27QAB-50,Reopened,gary.su@amtran.com.tw,2024-03-09T13:32:29.507+0800,,[PQ] HDR亮度超过SDR亮度20nits
-B,GTBM27QAB-58,Open,gary.su@amtran.com.tw,2024-03-12T19:12:16.715+0800,,[PQ] HDR色准EOTF数据偏高，曲线不贴合
-B,GTBM27QAB-56,Open,joe.hsiao,2024-03-12T13:49:36.843+0800,https://amtran.atlassian.net/browse/GIGAREAL-1203,[OSD]العربية语言下，RGB Range与下一列的RGB显示乱码（如图）
-B,GTBM27QAB-52,Open,joe.hsiao,2024-03-11T13:40:50.110+0800,https://amtran.atlassian.net/browse/GIGAREAL-1201,[SYS]PIP/PBP模式下，子画面无信号时，不会自动侦测有信号的源
-B,GTBM27QAB-47,Open,joe.hsiao,2024-03-08T13:40:19.098+0800,https://amtran.atlassian.net/browse/GIGAREAL-1200,[SYS] 输入信号延迟测试Fail（如图）
-B,GTBM27QAB-46,Open,joe.hsiao,2024-03-08T11:35:13.116+0800,https://amtran.atlassian.net/browse/GIGAREAL-1198,"[SYS] Typec连接红米笔记本 （Redmi G )，解析度2K180HZ下,   HDR 无法开启"
-B,GTBM27QAB-38,Open,joe.hsiao,2024-03-07T19:52:15.815+0800,https://amtran.atlassian.net/browse/GIGAREAL-1198,[SYS] DP连接W7800显卡2K180HZ，HDR无法开启
-B,GTBM27QAB-33,Open,joe.hsiao,2024-03-07T13:47:27.986+0800,https://amtran.atlassian.net/browse/GIGAREAL-1196,"[SYS] HDMI1 -2连接PS5, 插拔信号后，显示器无信号 ,  PS5设备重启恢复信号"
-B,GTBM27QAB-25,Open,joe.hsiao,2024-03-06T16:37:28.384+0800,https://amtran.atlassian.net/browse/GIGAREAL-1194,[SYS]USB(A/C) Charge选择OFF，输入自动切换关闭，显示器进入待机后，按出迷你菜单，待菜单消失后，信号源自动切换到Typec
-B,GTBM27QAB-22,Open,joe.hsiao,2024-03-06T16:27:54.880+0800,https://amtran.atlassian.net/browse/GIGAREAL-1193,[SYS]USB(A/C) Charge选择OFF，显示器睡眠进入待机后，Typec接口依旧可以充电，与OSDtree定义不符
-B,GTBM27QAB-21,Reopened,joe.hsiao,2024-03-06T16:04:59.703+0800,https://amtran.atlassian.net/browse/GIGAREAL-1192,[OSD]当接受FreeSync信息 ，刷新率为2K180HZ时，Display Mode /  PIP/PBP不反灰，与OSDtree不符
-B,GTBM27QAB-18,Open,joe.hsiao,2024-03-06T15:41:58.820+0800,https://amtran.atlassian.net/browse/GIGAREAL-1191,[OSD]Aim stabilizer ON/OFF时，荧幕中下没有跳出开启或关闭对话框，与OSDtree不符
-C,GTBM27QAB-65,Open,joe.hsiao,2024-03-16T09:27:01.881+0800,, Resolution Notice / Input Auto Switch下一栏 ON/OFF的顺序与OSDtree不一致
-C,GTBM27QAB-55,Reopened,joe.hsiao,2024-03-12T09:05:07.037+0800,,[VIDEO]DP连接RTX3050显卡，2K180hz，颜色深度为：10pbc，HDR开启，显示画面字体偏红
-C,GTBM27QAB-3,Open,joe.hsiao,2024-03-06T10:17:04.007+0800,https://amtran.atlassian.net/browse/GIGAREAL-1177,[OSD]菜单GameAssist -  Game Info字体为大写，OSDtree上的为小写
-C,GTBM27QAB-27,Open,Bob Chang,2024-03-07T09:46:28.280+0800,FW internal issue,[SYS] Type A连接三星手机（（Galaxy S10) 充电，电流达到1.5A， OSDtree定义为0.9A
-C,GTBM27QAB-34,Open,joe.hsiao,2024-03-07T13:51:20.800+0800,https://amtran.atlassian.net/browse/GIGAREAL-1231,[VIDEO] HDMI2切换至HDMI1（连接的PS5设备）source时，荧幕中央闪红色对话框
-C,GTBM27QAB-60,Open,joe.hsiao,2024-03-14T09:26:42.157+0800,https://amtran.atlassian.net/browse/GIGAREAL-1228,[SYS]KVM开启，KVM设置向导下一栏Control设定到Typec，在切回DP/HDMI后，鼠标键盘无作用
-C,GTBM27QAB-32,Open,joe.hsiao,2024-03-07T11:41:01.065+0800,https://amtran.atlassian.net/browse/GIGAREAL-1195,[OSD]菜单内色温与Gamma选项切换确认时，OSD上方的状态没有实时变更
+B,GTBM27QAB-66,Open,joe.hsiao,03/16/2024 09:50:00,,HDMI source连接6900，在分辨率1280X720@60HZ下，插拔信号，显示器会遮黑两次
+B,GTBM27QAB-67,Open,joe.hsiao,03/16/2024 10:14:46,,HDMI source 连接6900，Typec source 连接G634JZ笔记本，从typec source 分辨率切换到HDMI source 1920x1080@60HZ，会遮黑两次
+B,GTBM27QAB-36,Reopened,joe.hsiao,03/07/2024 16:16:44,,[AUDIO] 任意source，连接 （EDIFIER ，32欧）耳机，耳机持续传出杂音
+B,GTBM27QAB-64,Open,joe.hsiao,03/16/2024 09:15:08,,"PIP/PBP状态下，不应支持HDR ,实际机台HDR依旧可以打开，且画面异常"
+B,GTBM27QAB-10,Open,Alvin Hsieh(TPE-Audio),03/06/2024 13:42:06,https://amtran.atlassian.net/browse/GIGAREAL-1208,[AUDIO] HDMI 连接RTX3050，连接 （EDIFIER ，32欧）耳机，显示器DCoff/on，有杂音
+B,GTBM27QAB-24,Open,joey.huang,03/06/2024 16:33:45,EE Panel issue,屏幕和前框缝隙空气放电，8KV 10KV 15KV，概率性出现气泡
+B,GTBM27QAB-39,Open,joey.huang,03/08/2024 08:19:38,Panel issue,[PANEL] 任意source下，解析度4K 60HZ时，使用小苹果软件，打开Gray step  E-O画面，显示器背光闪烁
+B,GTBM27QAB-49,Open,joey.huang,03/09/2024 09:13:11,Panel issue,高低温开机静置测试后检查发现天侧漏光
+B,GTBM27QAB-61,Open,joey.huang,03/15/2024 08:51:28,Panel issue,[PANEL] 压迫性漏光
+B,GTBM27QAB-62,Open,joey.huang,03/15/2024 08:53:01,Panel issue,[PANEL] 天侧OC间隙漏光
+B,GTBM27QAB-48,Reopened,Mars.Tian(RAKEN-QRE),03/08/2024 19:18:12,,[PQ] 机台DCI-P3 coverage不达标
+B,GTBM27QAB-43,Open,Bob Chang,03/08/2024 09:34:08,FW internal issue,[OSD]ENG SPEC上的充电功率 与OSDtree不一致
+B,GTBM27QAB-26,Open,Bob Chang,03/07/2024 08:57:04,FW internal issue,"[SYS] 开机与待机状态下，充电功率, 与OSDtree定义不符"
+B,GTBM27QAB-44,Open,joe.hsiao,03/08/2024 10:01:45,FW internal issue,[OSD] ENG SPEC上的timing list / 菜单选项，与OSDtree多处不一致
+B,GTBM27QAB-17,Reopened,Bob Chang,03/06/2024 15:37:18,https://amtran.atlassian.net/browse/GIGAREAL-1190,[OSD]HDR开启，显示器开机，切换信号，调整解析度，荧幕中央跳出的对话框排版，与OSDtree示意图不一致
+B,GTBM27QAB-50,Reopened,gary.su@amtran.com.tw,03/09/2024 13:32:29,,[PQ] HDR亮度超过SDR亮度20nits
+B,GTBM27QAB-58,Open,gary.su@amtran.com.tw,03/12/2024 19:12:16,,[PQ] HDR色准EOTF数据偏高，曲线不贴合
+B,GTBM27QAB-56,Open,joe.hsiao,03/12/2024 13:49:36,https://amtran.atlassian.net/browse/GIGAREAL-1203,[OSD]العربية语言下，RGB Range与下一列的RGB显示乱码（如图）
+B,GTBM27QAB-52,Open,joe.hsiao,03/11/2024 13:40:50,https://amtran.atlassian.net/browse/GIGAREAL-1201,[SYS]PIP/PBP模式下，子画面无信号时，不会自动侦测有信号的源
+B,GTBM27QAB-47,Open,joe.hsiao,03/08/2024 13:40:19,https://amtran.atlassian.net/browse/GIGAREAL-1200,[SYS] 输入信号延迟测试Fail（如图）
+B,GTBM27QAB-46,Open,joe.hsiao,03/08/2024 11:35:13,https://amtran.atlassian.net/browse/GIGAREAL-1198,"[SYS] Typec连接红米笔记本 （Redmi G )，解析度2K180HZ下,   HDR 无法开启"
+B,GTBM27QAB-38,Open,joe.hsiao,03/07/2024 19:52:15,https://amtran.atlassian.net/browse/GIGAREAL-1198,[SYS] DP连接W7800显卡2K180HZ，HDR无法开启
+B,GTBM27QAB-33,Open,joe.hsiao,03/07/2024 13:47:27,https://amtran.atlassian.net/browse/GIGAREAL-1196,"[SYS] HDMI1 -2连接PS5, 插拔信号后，显示器无信号 ,  PS5设备重启恢复信号"
+B,GTBM27QAB-25,Open,joe.hsiao,03/06/2024 16:37:28,https://amtran.atlassian.net/browse/GIGAREAL-1194,[SYS]USB(A/C) Charge选择OFF，输入自动切换关闭，显示器进入待机后，按出迷你菜单，待菜单消失后，信号源自动切换到Typec
+B,GTBM27QAB-22,Open,joe.hsiao,03/06/2024 16:27:54,https://amtran.atlassian.net/browse/GIGAREAL-1193,[SYS]USB(A/C) Charge选择OFF，显示器睡眠进入待机后，Typec接口依旧可以充电，与OSDtree定义不符
+B,GTBM27QAB-21,Reopened,joe.hsiao,03/06/2024 16:04:59,https://amtran.atlassian.net/browse/GIGAREAL-1192,[OSD]当接受FreeSync信息 ，刷新率为2K180HZ时，Display Mode /  PIP/PBP不反灰，与OSDtree不符
+B,GTBM27QAB-18,Open,joe.hsiao,03/06/2024 15:41:58,https://amtran.atlassian.net/browse/GIGAREAL-1191,[OSD]Aim stabilizer ON/OFF时，荧幕中下没有跳出开启或关闭对话框，与OSDtree不符
+C,GTBM27QAB-65,Open,joe.hsiao,03/16/2024 09:27:01,, Resolution Notice / Input Auto Switch下一栏 ON/OFF的顺序与OSDtree不一致
+C,GTBM27QAB-55,Reopened,joe.hsiao,03/12/2024 09:05:07,,[VIDEO]DP连接RTX3050显卡，2K180hz，颜色深度为：10pbc，HDR开启，显示画面字体偏红
+C,GTBM27QAB-3,Open,joe.hsiao,03/06/2024 10:17:04,https://amtran.atlassian.net/browse/GIGAREAL-1177,[OSD]菜单GameAssist -  Game Info字体为大写，OSDtree上的为小写
+C,GTBM27QAB-27,Open,Bob Chang,03/07/2024 09:46:28,FW internal issue,[SYS] Type A连接三星手机（（Galaxy S10) 充电，电流达到1.5A， OSDtree定义为0.9A
+C,GTBM27QAB-34,Open,joe.hsiao,03/07/2024 13:51:20,https://amtran.atlassian.net/browse/GIGAREAL-1231,[VIDEO] HDMI2切换至HDMI1（连接的PS5设备）source时，荧幕中央闪红色对话框
+C,GTBM27QAB-60,Open,joe.hsiao,03/14/2024 09:26:42,https://amtran.atlassian.net/browse/GIGAREAL-1228,[SYS]KVM开启，KVM设置向导下一栏Control设定到Typec，在切回DP/HDMI后，鼠标键盘无作用
+C,GTBM27QAB-32,Open,joe.hsiao,03/07/2024 11:41:01,https://amtran.atlassian.net/browse/GIGAREAL-1195,[OSD]菜单内色温与Gamma选项切换确认时，OSD上方的状态没有实时变更

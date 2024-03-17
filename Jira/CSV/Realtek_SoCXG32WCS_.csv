@@ -1,14 +1,14 @@
 Priority,Key,Status,Assignee,Created,VendorCR,Summary
-A,GIGAREAL-1189,Open,ray.hsu,2024-03-11T22:02:10.935+0800,,[ASUS][XG32WCS][SYS]4K解析度，純色畫面下看見畫面閃爍
-A,GIGAREAL-1187,Open,ray.hsu,2024-03-11T21:48:28.671+0800,,[ASUS][XG32WCS][SYS]PIP主畫面機率性畫異
-A,GIGAREAL-1147,Open,ray.hsu,2024-02-19T13:50:23.744+0800,,"[ASUS][XG32WCS][VIDEO]DP source連接RTX2070,切至HDMI source(RX 6800 XT)時，HDMI出畫後，會再閃黑一次"
-A,GIGAREAL-1174,Open,ray.hsu,2024-03-06T14:58:32.972+0800,,"[ASUS][XG32WCS][SYS]HDMI source 連接Apple  tv,從480p SDR 60HZ切到4K HDR 60HZ無法出畫"
-A,GIGAREAL-1154,Open,ray.hsu,2024-02-26T09:42:47.265+0800,,"[ASUS][XG32WCS][VIDEO]DP source接顯卡RTX 2070 2560×1440@180HZ,開啟G-SYNC ""大鐘擺“，背光會有輕微閃爍現象"
-A,GIGAREAL-1153,Open,ray.hsu,2024-02-25T23:03:04.470+0800,,[ASUS][XG32WCS][VIDEO]訊號源接滿的狀態下，開啟PiP，子訊號源每次都不固定
-B,GIGAREAL-1242,Open,ray.hsu,2024-03-14T22:18:16.389+0800,,[ASUS][XG32WCS][AUDIO]切換任意source且畫面剛點亮的時候，耳機會出現雜音
-B,GIGAREAL-1162,Open,ray.hsu,2024-03-01T16:34:36.583+0800,,[ASUS][XG32WCS][VIDEO]HDR在多個刷新率下畫面閃爍
-B,GIGAREAL-1186,Open,ray.hsu,2024-03-11T21:31:31.232+0800,,[ASUS][XG32WCS][SYS]Shortcut->hotkey設定為Customized Setting後，按下hotkey->Load後，自動恢復hotkey功能
-B,GIGAREAL-1164,Open,ray.hsu,2024-03-04T19:29:26.482+0800,,[ASUS][XG32WCS] [PQ]sRGB Coverage 未達 99%
-C,GIGAREAL-1188,Open,ray.hsu,2024-03-11T21:54:02.496+0800,,[ASUS][XG32WCS][OSD]部分語言翻譯錯誤(如附件紅字)
-C,GIGAREAL-1167,Open,ray.hsu,2024-03-05T18:08:49.361+0800,,[ASUS][XG32WCS][OSD]開啟G-SYNC大鐘擺並開啟FPS Counter，此時開啟Main OSD或電源鍵，並按左鍵離開會閃出FPS Counter OSD
-C,GIGAREAL-1159,Open,ray.hsu,2024-02-26T17:15:09.760+0800,,[ASUS][XG32WCS][VIDEO][OSD]開啟PIP時，主訊號框會連閃兩次
+A,GIGAREAL-1189,Open,ray.hsu,03/11/2024 22:02:10,,[ASUS][XG32WCS][SYS]4K解析度，純色畫面下看見畫面閃爍
+A,GIGAREAL-1187,Open,ray.hsu,03/11/2024 21:48:28,,[ASUS][XG32WCS][SYS]PIP主畫面機率性畫異
+A,GIGAREAL-1147,Open,ray.hsu,02/19/2024 13:50:23,,"[ASUS][XG32WCS][VIDEO]DP source連接RTX2070,切至HDMI source(RX 6800 XT)時，HDMI出畫後，會再閃黑一次"
+A,GIGAREAL-1174,Open,ray.hsu,03/06/2024 14:58:32,,"[ASUS][XG32WCS][SYS]HDMI source 連接Apple  tv,從480p SDR 60HZ切到4K HDR 60HZ無法出畫"
+A,GIGAREAL-1154,Open,ray.hsu,02/26/2024 09:42:47,,"[ASUS][XG32WCS][VIDEO]DP source接顯卡RTX 2070 2560×1440@180HZ,開啟G-SYNC ""大鐘擺“，背光會有輕微閃爍現象"
+A,GIGAREAL-1153,Open,ray.hsu,02/25/2024 23:03:04,,[ASUS][XG32WCS][VIDEO]訊號源接滿的狀態下，開啟PiP，子訊號源每次都不固定
+B,GIGAREAL-1242,Open,ray.hsu,03/14/2024 22:18:16,,[ASUS][XG32WCS][AUDIO]切換任意source且畫面剛點亮的時候，耳機會出現雜音
+B,GIGAREAL-1162,Open,ray.hsu,03/01/2024 16:34:36,,[ASUS][XG32WCS][VIDEO]HDR在多個刷新率下畫面閃爍
+B,GIGAREAL-1186,Open,ray.hsu,03/11/2024 21:31:31,,[ASUS][XG32WCS][SYS]Shortcut->hotkey設定為Customized Setting後，按下hotkey->Load後，自動恢復hotkey功能
+B,GIGAREAL-1164,Open,ray.hsu,03/04/2024 19:29:26,,[ASUS][XG32WCS] [PQ]sRGB Coverage 未達 99%
+C,GIGAREAL-1188,Open,ray.hsu,03/11/2024 21:54:02,,[ASUS][XG32WCS][OSD]部分語言翻譯錯誤(如附件紅字)
+C,GIGAREAL-1167,Open,ray.hsu,03/05/2024 18:08:49,,[ASUS][XG32WCS][OSD]開啟G-SYNC大鐘擺並開啟FPS Counter，此時開啟Main OSD或電源鍵，並按左鍵離開會閃出FPS Counter OSD
+C,GIGAREAL-1159,Open,ray.hsu,02/26/2024 17:15:09,,[ASUS][XG32WCS][VIDEO][OSD]開啟PIP時，主訊號框會連閃兩次

@@ -1,7 +1,7 @@
 Priority,Key,Status,Assignee,Created,VendorCR,Summary
-B,GIGAREAL-1220,Open,chu.ming.jie,2024-03-13T18:31:51.695+0800,https://amtran.atlassian.net/browse/GTBFO27Q2-18,"[FO32U/FO27Q2][SYS] HDMI1/2 source连接RX 6800 XT,分辨率无法切至2560×1440@240HZ"
-B,GIGAREAL-1212,Open,chu.ming.jie,2024-03-13T14:08:35.788+0800,https://amtran.atlassian.net/browse/GTBFO27Q2-10,[FO32U/FO27Q2][OSD] Setting→System→Other Settings 下缺少”USB 3.2 Support“项（如图）
-B,GIGAREAL-1211,Open,chu.ming.jie,2024-03-13T13:57:18.024+0800,https://amtran.atlassian.net/browse/GTBFO27Q2-5,"[FO32U/FO27Q2][OSD] GameAssist→Eagle Eye→ON,需移除Size選項"
-B,GIGAREAL-1210,Open,chu.ming.jie,2024-03-13T13:53:48.794+0800,https://amtran.atlassian.net/browse/GTBFO27Q2-5,[FO32U/FO27Q2][OSD] Night Vision 在OSD 上的位置需修改
-B,GIGAREAL-1209,Open,chu.ming.jie,2024-03-13T13:47:21.781+0800,https://amtran.atlassian.net/browse/GTBFO27Q2-4,[FO32U/FO27Q2][OSD] GameAssist→Tactical Switch→Function  子菜单对比0306版OSD tree缺少Eagle Eye/Night Vision项（如图）
-B,GIGAREAL-1202,Open,chu.ming.jie,2024-03-12T11:08:10.142+0800,,[FO32U2P/FO32U2/FO27Q3/FO32U/FO27Q2/MO32U/MO27Q2][OSD] Crosshair改僅在畫面置中時可使用
+B,GIGAREAL-1220,Open,chu.ming.jie,03/13/2024 18:31:51,https://amtran.atlassian.net/browse/GTBFO27Q2-18,"[FO32U/FO27Q2][SYS] HDMI1/2 source连接RX 6800 XT,分辨率无法切至2560×1440@240HZ"
+B,GIGAREAL-1212,Open,chu.ming.jie,03/13/2024 14:08:35,https://amtran.atlassian.net/browse/GTBFO27Q2-10,[FO32U/FO27Q2][OSD] Setting→System→Other Settings 下缺少”USB 3.2 Support“项（如图）
+B,GIGAREAL-1211,Open,chu.ming.jie,03/13/2024 13:57:18,https://amtran.atlassian.net/browse/GTBFO27Q2-5,"[FO32U/FO27Q2][OSD] GameAssist→Eagle Eye→ON,需移除Size選項"
+B,GIGAREAL-1210,Open,chu.ming.jie,03/13/2024 13:53:48,https://amtran.atlassian.net/browse/GTBFO27Q2-5,[FO32U/FO27Q2][OSD] Night Vision 在OSD 上的位置需修改
+B,GIGAREAL-1209,Open,chu.ming.jie,03/13/2024 13:47:21,https://amtran.atlassian.net/browse/GTBFO27Q2-4,[FO32U/FO27Q2][OSD] GameAssist→Tactical Switch→Function  子菜单对比0306版OSD tree缺少Eagle Eye/Night Vision项（如图）
+B,GIGAREAL-1202,Open,chu.ming.jie,03/12/2024 11:08:10,,[FO32U2P/FO32U2/FO27Q3/FO32U/FO27Q2/MO32U/MO27Q2][OSD] Crosshair改僅在畫面置中時可使用
