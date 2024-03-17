@@ -66,7 +66,7 @@ def jira_to_csv(search_result_, project_name_,para_):
         str_ =  project_name_ + para_
         str_ = str_.replace("/", "_")
         str_ = FILE_PATH_JIRA_CSV_MAC + str_ 
-        print("output str = {} , proj = {} , para = {}".format(str_, project_name_,para_))
+        # print("output str = {} , proj = {} , para = {}".format(str_, project_name_,para_))
         df.to_csv(str_ + '_' + '.csv',index=False)
     else:
         str_ = Fproject_name_ + para_
