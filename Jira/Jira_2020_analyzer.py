@@ -39,13 +39,13 @@ def get_assignee_name(_issue):
 #----------------------------------------------------------------------
 def jira_to_csv(search_result_, project_name_,para_):
 
-    data = [[issue.fields.priority,issue.key, issue.fields.status,issue.fields.assignee, issue.fields.summary, issue.fields.created,issue.raw['fields']['customfield_10040']]
+    data = [[issue.fields.priority,issue.key, issue.fields.status,issue.fields.assignee,issue.fields.created,issue.raw['fields']['customfield_10040'],issue.fields.summary]
     for issue in search_result_]
 
     # for issue in search_result_:
     #     print (issue.raw['fields']['customfield_10040'])
 
-    header = ["Priority","Key", "Status","Assignee", "Summary", "Created","VendorCR"]
+    header = ["Priority","Key", "Status","Assignee","Created","VendorCR","Summary"]
  
     df = pd.DataFrame(data, columns=header)
 

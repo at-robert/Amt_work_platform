@@ -1,22 +1,22 @@
-Priority,Key,Status,Assignee,Summary,Created,VendorCR
-B,XG32WCS-91,Reopened,allen.chen (TPE-Panel),sRGB 模式色域值不达标,2024-02-22T14:02:53.274+0800,
-B,XG32WCS-153,In Progress,joe.hsiao,[SYS]HDR下亮度值未达到SDR下亮度值,2024-03-07T15:50:24.806+0800,
-B,XG32WCS-46,Reopened,Alvin Hsieh(TPE-Audio),"[AUDIO]DP source连接RTX 2070,切至HDMI source连接华硕笔记本 RTX 4080时，耳机内有短暂电流音加杂音",2024-02-17T10:33:10.124+0800,https://amtran.atlassian.net/browse/GIGAREAL-1175
-B,XG32WCS-85,Reopened,joe.hsiao,"[VIDEO]连接显卡RTX 2070,参照EDID 刷新率列表，16:9 24.5"" simulation模式下,HDMI实际缺少2560×1440@144HZ",2024-02-21T15:37:13.502+0800,FW internal issue
-B,XG32WCS-127,Open,joe.hsiao,[SYS]连接Mac mimi Apple M1，部分刷新率找不到,2024-03-01T14:30:26.684+0800,   FW internal issue
-B,XG32WCS-128,Open,joe.hsiao,[SYS]连接Mac mimi Apple M2，部分刷新率找不到,2024-03-01T14:31:36.199+0800,FW internal issue
-B,XG32WCS-154,Open,allen.chen (TPE-Panel),"[VIDEO]任意source连接RTX2070,4K解析度下使用“小苹果”软件打开纯色图片时，画面出现背光闪烁",2024-03-08T10:48:53.357+0800,https://amtran.atlassian.net/browse/GIGAREAL-1189
-B,XG32WCS-94,Open,allen.chen (TPE-Panel),"[VIDEO]DP source连接显卡RTX 2070,Variable Refresh Rate与ELMB SYNC项同步开启，G-SYNC ""大摆钟“画面背光一会亮一会暗",2024-02-22T16:21:21.655+0800,https://amtran.atlassian.net/browse/GIGAREAL-1154
-B,XG32WCS-73,Open,allen.chen (TPE-Panel),[VIDEO]HDMI/DP source连接显卡RTX2070；多个刷新率下，HDR为开启状态时出现背光闪烁,2024-02-20T10:52:42.351+0800,https://amtran.atlassian.net/browse/GIGAREAL-1162
-B,XG32WCS-152,Open,joe.hsiao,[OSD]OSD翻译表，部分翻译错误,2024-03-07T15:42:46.344+0800,https://amtran.atlassian.net/browse/GIGAREAL-1188
-B,XG32WCS-150,Open,joe.hsiao,"[VIDEO]开启PIP,HDMI source连接RTX 2070（主源）,USB-C连接华硕FA507XI笔电（子源），主源分辨率由2560×1440@60HZ切至2560×1440@120HZ时出现满屏闪画异线条",2024-03-07T13:52:06.373+0800,https://amtran.atlassian.net/browse/GIGAREAL-1187
-B,XG32WCS-142,Open,joe.hsiao,"[OSD]DP source连接显卡RTX 2070,测试G-SYNC  大摆钟（FPS计数器同步打开），唤出电源菜单选项后按左键退出时屏幕中间闪一瞬间FPS数值画面",2024-03-05T16:32:59.023+0800,https://amtran.atlassian.net/browse/GIGAREAL-1167
-B,XG32WCS-136,Reopened,joe.hsiao,[SYS]上/下/左/右快捷方式自定义更改为“自定义设置-1/自定义设置-2”后按对应快捷键选择Load时，当前菜单出现短暂乱码现象,2024-03-04T16:32:26.564+0800,https://amtran.atlassian.net/browse/GIGAREAL-1186
-B,XG32WCS-137,Reopened,joe.hsiao,[SYS]上/下/左/右快捷方式由默认更改为“自定义设置-1/自定义设置-2”仅使用一次后，自动回到默认快捷方式,2024-03-04T16:42:10.906+0800,https://amtran.atlassian.net/browse/GIGAREAL-1186
-B,XG32WCS-129,Open,joe.hsiao,"[SYS]HDMI source 连接Apple  tv,从分辨率480p SDR60HZ切换到4K HDR 60HZ,会显示错误",2024-03-01T15:33:21.249+0800,https://amtran.atlassian.net/browse/GIGAREAL-1174
-B,XG32WCS-101,Open,joe.hsiao,"[VIDEO]USB-C连接任意显卡/笔记本，开启PIP/PBP,显示器DC off/on,主源都会自动切至HDMI/DP，且跳出二次信号源提示框",2024-02-23T09:18:57.492+0800,https://amtran.atlassian.net/browse/GIGAREAL-1159
-B,XG32WCS-92,Open,allen.chen (TPE-Panel),"[VIDEO]DP source连接显卡RTX 2070 2560×1440@180HZ,开启G-SYNC ""大摆钟“，大摆钟摆动时画面不平滑有抖动，背光有轻微闪烁现象",2024-02-22T14:36:24.648+0800,
-B,XG32WCS-80,Open,joe.hsiao,[VIDEO]开启PBP，主源与子源都为USB-C source，显示器DC off/on开机后主源自动变更为DP source,2024-02-21T09:42:05.950+0800,https://amtran.atlassian.net/browse/GIGAREAL-1153
-B,XG32WCS-79,Open,joe.hsiao,[VIDEO]信号源满载，任意source下，菜单保持已还原状态每次开启PIP/PBP，子源的信号源都不固定,2024-02-21T09:12:40.762+0800,https://amtran.atlassian.net/browse/GIGAREAL-1153
-B,XG32WCS-42,Open,joe.hsiao,"[VIDEO]DP source连接显卡RTX2070,切至HDMI source(RX 6800 XT)时，画面瞬间闪黑一下再二次出画",2024-02-17T08:28:56.673+0800,https://amtran.atlassian.net/browse/GIGAREAL-1147
-B,XG32WCS-117,Open,allen.chen (TPE-Panel),残影测试FAIL,2024-02-28T14:11:42.951+0800,
+Priority,Key,Status,Assignee,Created,VendorCR,Summary
+B,XG32WCS-91,Reopened,allen.chen (TPE-Panel),2024-02-22T14:02:53.274+0800,,sRGB 模式色域值不达标
+B,XG32WCS-153,In Progress,joe.hsiao,2024-03-07T15:50:24.806+0800,,[SYS]HDR下亮度值未达到SDR下亮度值
+B,XG32WCS-46,Reopened,Alvin Hsieh(TPE-Audio),2024-02-17T10:33:10.124+0800,https://amtran.atlassian.net/browse/GIGAREAL-1175,"[AUDIO]DP source连接RTX 2070,切至HDMI source连接华硕笔记本 RTX 4080时，耳机内有短暂电流音加杂音"
+B,XG32WCS-85,Reopened,joe.hsiao,2024-02-21T15:37:13.502+0800,FW internal issue,"[VIDEO]连接显卡RTX 2070,参照EDID 刷新率列表，16:9 24.5"" simulation模式下,HDMI实际缺少2560×1440@144HZ"
+B,XG32WCS-127,Open,joe.hsiao,2024-03-01T14:30:26.684+0800,   FW internal issue,[SYS]连接Mac mimi Apple M1，部分刷新率找不到
+B,XG32WCS-128,Open,joe.hsiao,2024-03-01T14:31:36.199+0800,FW internal issue,[SYS]连接Mac mimi Apple M2，部分刷新率找不到
+B,XG32WCS-154,Open,allen.chen (TPE-Panel),2024-03-08T10:48:53.357+0800,https://amtran.atlassian.net/browse/GIGAREAL-1189,"[VIDEO]任意source连接RTX2070,4K解析度下使用“小苹果”软件打开纯色图片时，画面出现背光闪烁"
+B,XG32WCS-94,Open,allen.chen (TPE-Panel),2024-02-22T16:21:21.655+0800,https://amtran.atlassian.net/browse/GIGAREAL-1154,"[VIDEO]DP source连接显卡RTX 2070,Variable Refresh Rate与ELMB SYNC项同步开启，G-SYNC ""大摆钟“画面背光一会亮一会暗"
+B,XG32WCS-73,Open,allen.chen (TPE-Panel),2024-02-20T10:52:42.351+0800,https://amtran.atlassian.net/browse/GIGAREAL-1162,[VIDEO]HDMI/DP source连接显卡RTX2070；多个刷新率下，HDR为开启状态时出现背光闪烁
+B,XG32WCS-152,Open,joe.hsiao,2024-03-07T15:42:46.344+0800,https://amtran.atlassian.net/browse/GIGAREAL-1188,[OSD]OSD翻译表，部分翻译错误
+B,XG32WCS-150,Open,joe.hsiao,2024-03-07T13:52:06.373+0800,https://amtran.atlassian.net/browse/GIGAREAL-1187,"[VIDEO]开启PIP,HDMI source连接RTX 2070（主源）,USB-C连接华硕FA507XI笔电（子源），主源分辨率由2560×1440@60HZ切至2560×1440@120HZ时出现满屏闪画异线条"
+B,XG32WCS-142,Open,joe.hsiao,2024-03-05T16:32:59.023+0800,https://amtran.atlassian.net/browse/GIGAREAL-1167,"[OSD]DP source连接显卡RTX 2070,测试G-SYNC  大摆钟（FPS计数器同步打开），唤出电源菜单选项后按左键退出时屏幕中间闪一瞬间FPS数值画面"
+B,XG32WCS-136,Reopened,joe.hsiao,2024-03-04T16:32:26.564+0800,https://amtran.atlassian.net/browse/GIGAREAL-1186,[SYS]上/下/左/右快捷方式自定义更改为“自定义设置-1/自定义设置-2”后按对应快捷键选择Load时，当前菜单出现短暂乱码现象
+B,XG32WCS-137,Reopened,joe.hsiao,2024-03-04T16:42:10.906+0800,https://amtran.atlassian.net/browse/GIGAREAL-1186,[SYS]上/下/左/右快捷方式由默认更改为“自定义设置-1/自定义设置-2”仅使用一次后，自动回到默认快捷方式
+B,XG32WCS-129,Open,joe.hsiao,2024-03-01T15:33:21.249+0800,https://amtran.atlassian.net/browse/GIGAREAL-1174,"[SYS]HDMI source 连接Apple  tv,从分辨率480p SDR60HZ切换到4K HDR 60HZ,会显示错误"
+B,XG32WCS-101,Open,joe.hsiao,2024-02-23T09:18:57.492+0800,https://amtran.atlassian.net/browse/GIGAREAL-1159,"[VIDEO]USB-C连接任意显卡/笔记本，开启PIP/PBP,显示器DC off/on,主源都会自动切至HDMI/DP，且跳出二次信号源提示框"
+B,XG32WCS-92,Open,allen.chen (TPE-Panel),2024-02-22T14:36:24.648+0800,,"[VIDEO]DP source连接显卡RTX 2070 2560×1440@180HZ,开启G-SYNC ""大摆钟“，大摆钟摆动时画面不平滑有抖动，背光有轻微闪烁现象"
+B,XG32WCS-80,Open,joe.hsiao,2024-02-21T09:42:05.950+0800,https://amtran.atlassian.net/browse/GIGAREAL-1153,[VIDEO]开启PBP，主源与子源都为USB-C source，显示器DC off/on开机后主源自动变更为DP source
+B,XG32WCS-79,Open,joe.hsiao,2024-02-21T09:12:40.762+0800,https://amtran.atlassian.net/browse/GIGAREAL-1153,[VIDEO]信号源满载，任意source下，菜单保持已还原状态每次开启PIP/PBP，子源的信号源都不固定
+B,XG32WCS-42,Open,joe.hsiao,2024-02-17T08:28:56.673+0800,https://amtran.atlassian.net/browse/GIGAREAL-1147,"[VIDEO]DP source连接显卡RTX2070,切至HDMI source(RX 6800 XT)时，画面瞬间闪黑一下再二次出画"
+B,XG32WCS-117,Open,allen.chen (TPE-Panel),2024-02-28T14:11:42.951+0800,,残影测试FAIL
