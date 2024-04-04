@@ -28,6 +28,10 @@ FILE_PATH_MODELS_JSON_MAC= pwd + 'Documents/Github/Amt_work_platform/Jira/models
 # FILE_PATH_MODELS_JSON_MAC= pwd + 'Documents/Github/Amt_work_platform/Jira/models_test.json'
 FILE_PATH_JIRA_CSV_MAC= pwd + 'Documents/Github/Amt_work_platform/Jira/CSV/'
 
+# JIRA Statistics 
+data_ = [['Temp',10, 25, 2, 4, 1, 3, 41]]
+df_jira_stat = pd.DataFrame(data_, columns=['Model','OSD','SYS', 'Audio', 'PQ', 'Video','Other', 'Total' ])
+
 # NOTE: The parameter 'displayName' (Assignee Name) could be changed for time to time
 # Just print out the fields value in order to find out what the parameter name is
 #--------------------------------------------------------------
@@ -155,6 +159,9 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
     print ("{} => [JIRA Statistics] OSD = {} , SYS = {} , Audio = {} , PQ = {} , VIDEO = {}, Other = {} , total = {} ".format(proj_name,OSD_count,SYS_count,Audio_count,PQ_count,Video_count,Other_count,total_c))
     print (" ")
 
+
+    str_ =  proj_name + para_
+    df_jira_stat.loc[len(df_jira_stat)] = [str_, OSD_count, SYS_count, Audio_count, PQ_count, Video_count, Other_count, total_c]
 
     all_proj_issues = jira.search_issues(jql_resolved,maxResults=0)
 
@@ -389,5 +396,16 @@ if __name__ == "__main__":
     print_group(para_fw3_1,"FW3 - 1")
     print_group(para_fw3_2,"FW3 - 2")
     print_group(para_other,"FW3 - Other")
+
+    df_jira_stat=df_jira_stat.drop(df_jira_stat.index[0])
+    # print(df_jira_stat)
+
+    # Output csv files
+    if (platform.system() == 'Darwin'):
+        str_ = FILE_PATH_JIRA_CSV_MAC + 'Jira_Statistic' 
+        df_jira_stat.to_csv(str_ + '_' + '.csv',index=False)
+    else:
+        str_ = FILE_PATH_JIRA_CSV + 'Jira_Statistic'
+        df_jira_stat.to_csv(str_ +  '_' + '.csv',index=False)
 
     
