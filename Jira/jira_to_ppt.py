@@ -65,7 +65,10 @@ def add_slide(prs, layout, title, number_,img_name_):
     top = Inches(4)
     height = Inches(5)
     
-    slide.shapes.add_picture(FILE_PATH_JIRA_PIC_MAC + img_name_, left, top, height)
+    if (platform.system() == 'Darwin'):
+        slide.shapes.add_picture(FILE_PATH_JIRA_PIC_MAC + img_name_, left, top, height)
+    else:
+        slide.shapes.add_picture(FILE_PATH_JIRA_PIC + img_name_, left, top, height)
 
     return slide
 
@@ -73,7 +76,11 @@ def add_slide(prs, layout, title, number_,img_name_):
 #----------------------------------------------------------------------
 if __name__ == "__main__":
 
-    df = pd.read_csv(FILE_PATH_JIRA_CSV_MAC + 'Jira_Statistic_.csv')
+    if (platform.system() == 'Darwin'):
+        df = pd.read_csv(FILE_PATH_JIRA_CSV_MAC + 'Jira_Statistic_.csv')
+    else:
+        df = pd.read_csv(FILE_PATH_JIRA_CSV + 'Jira_Statistic_.csv')
+
     # print(df)
 
     prs = Presentation()
@@ -99,5 +106,7 @@ if __name__ == "__main__":
     list_ = df[df['Model'] == prj_name].values.flatten().tolist()[1:]
     add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')
     
-
-    prs.save(FILE_PATH_JIRA_PPT_MAC + 'jira_npi.pptx')
+    if (platform.system() == 'Darwin'):
+        prs.save(FILE_PATH_JIRA_PPT_MAC + 'jira_npi.pptx')
+    else:
+        prs.save(FILE_PATH_JIRA_PPT + 'jira_npi.pptx')
