@@ -74,6 +74,14 @@ def add_slide(prs, layout, title, number_,img_name_):
 
 
 #----------------------------------------------------------------------
+def check_if_png_exist(prj_name_):
+    if (platform.system() == 'Darwin'):
+        return os.path.exists(FILE_PATH_JIRA_PIC_MAC + prj_name_ + '.png')
+    else:
+        return os.path.exists(FILE_PATH_JIRA_PIC + prj_name_ + '.png')
+
+
+#----------------------------------------------------------------------
 if __name__ == "__main__":
 
     if (platform.system() == 'Darwin'):
@@ -91,7 +99,8 @@ if __name__ == "__main__":
         prj_name = row['Model']
         list_ = row.values.flatten().tolist()[1:]
 
-        if( prj_name == "GIGABYTE FO27Q2_2024") or ( prj_name == "ASUS XG32WCMS_CSOT_2024") or ( prj_name == "ASUS_XG32WCS-CSOT-2024") or ( prj_name == "GIGABYTE M27UA_AUO_2024") or ( prj_name == "GIGABYTE M27QA_BOE_2024"):
+        # Only .png exist would generate the report
+        if ( check_if_png_exist(prj_name) ):
             add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')
 
 
