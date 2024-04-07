@@ -86,26 +86,15 @@ if __name__ == "__main__":
     prs = Presentation()
     title_only_slide_layout = prs.slide_layouts[5]
 
-    prj_name = "GIGABYTE FO27Q2_2024"
-    list_ = df[df['Model'] == prj_name].values.flatten().tolist()[1:]
-    add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')
 
-    prj_name = "ASUS XG32WCMS_CSOT_2024"
-    list_ = df[df['Model'] == prj_name].values.flatten().tolist()[1:]
-    add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')
+    for index, row in df.iterrows():
+        prj_name = row['Model']
+        list_ = row.values.flatten().tolist()[1:]
 
-    prj_name = "ASUS_XG32WCS-CSOT-2024"
-    list_ = df[df['Model'] == prj_name].values.flatten().tolist()[1:]
-    add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')
+        if( prj_name == "GIGABYTE FO27Q2_2024") or ( prj_name == "ASUS XG32WCMS_CSOT_2024") or ( prj_name == "ASUS_XG32WCS-CSOT-2024") or ( prj_name == "GIGABYTE M27UA_AUO_2024") or ( prj_name == "GIGABYTE M27QA_BOE_2024"):
+            add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')
 
-    prj_name = "GIGABYTE M27UA_AUO_2024"
-    list_ = df[df['Model'] == prj_name].values.flatten().tolist()[1:]
-    add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')
 
-    prj_name = "GIGABYTE M27QA_BOE_2024"
-    list_ = df[df['Model'] == prj_name].values.flatten().tolist()[1:]
-    add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')
-    
     if (platform.system() == 'Darwin'):
         prs.save(FILE_PATH_JIRA_PPT_MAC + 'jira_npi.pptx')
     else:
