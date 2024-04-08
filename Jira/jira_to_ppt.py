@@ -26,6 +26,21 @@ FILE_PATH_JIRA_CSV=r"D:\work_platform\Github\Amt_work_platform\Jira\CSV\\"
 FILE_PATH_JIRA_PIC=r"D:\work_platform\Github\Amt_work_platform\Jira\PIC\\"
 FILE_PATH_JIRA_PPT=r"D:\work_platform\Github\Amt_work_platform\Jira\PPT\\"
 
+#----------------------------------------------------------------------
+def change_table_font_size(prs_):
+    for slide in prs_.slides:
+    # 遍历每个形状
+        for shape in slide.shapes:
+            # 检查形状是否为表格
+            if shape.has_table:
+                # 遍历每个单元格
+                for row in shape.table.rows:
+                    for cell in row.cells:
+                        # 修改单元格中文本框的字体大小
+                        for paragraph in cell.text_frame.paragraphs:
+                            for run in paragraph.runs:
+                                font = run.font
+                                font.size = Pt(12)
 
 #----------------------------------------------------------------------
 def add_table(shapes_,number_):
@@ -35,8 +50,8 @@ def add_table(shapes_,number_):
     rows = 2
     left = Inches(1.0)
     top = Inches(2.0)
-    width = Inches(6.0)
-    height = Inches(0.8)
+    width = Inches(3.0)
+    height = Inches(0.4)
 
     table = shapes_.add_table(rows, cols, left, top, width, height).table
 
@@ -102,6 +117,8 @@ if __name__ == "__main__":
         # Only .png exist would generate the report
         if ( check_if_png_exist(prj_name) ):
             add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')
+
+    change_table_font_size(prs)
 
 
     if (platform.system() == 'Darwin'):
