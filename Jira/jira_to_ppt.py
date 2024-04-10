@@ -60,7 +60,21 @@ def add_table(shapes_,number_):
     # table.columns[1].width = Inches(4.0)
 
     for i in range(0,len(item_)):
-        table.columns[i].width = Inches(1.2)
+        if(item_[i] == 'OSD 操作介面'):
+            table.columns[i].width = Inches(0.9)
+        elif(item_[i] == 'SYS 系統行為'):
+            table.columns[i].width = Inches(0.9)
+        elif(item_[i] == 'Audio 爆音異音'):
+            table.columns[i].width = Inches(0.9)
+        elif(item_[i] == 'PQ 畫質相關'):
+            table.columns[i].width = Inches(0.9)
+        elif(item_[i] == '待處理'):
+            table.columns[i].width = Inches(0.8)
+        elif(item_[i] == 'Total'):
+            table.columns[i].width = Inches(0.6)
+        else:
+            table.columns[i].width = Inches(1.0)
+
         table.cell(0, i).text = item_[i]
 
     for i in range(0,len(item_)):
