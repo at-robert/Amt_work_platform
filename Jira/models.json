@@ -3,7 +3,7 @@
     [
         {
             "group":"FW3_1",
-            "name":"GTBFO27Q2",
+            "name":"GTBFO32U",
             "space":"16",
             "subg":""
         },
@@ -16,6 +16,12 @@
         {
             "group":"FW3_1",
             "name":"GTBMO27Q2",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_1",
+            "name":"VG32UQA1A",
             "space":"16",
             "subg":""
         },
@@ -78,24 +84,6 @@
             "name":"JVCTW65TG2",
             "space":"16",
             "subg":""
-        },
-        {
-            "group":"Other",
-            "name":"GIGAREAL",
-            "space":"12",
-            "subg":"FO27Q2"
-        },
-        {
-            "group":"Other",
-            "name":"MONMTK",
-            "space":"12",
-            "subg":"XG32WCMS"
-        },
-        {
-            "group":"Other",
-            "name":"GIGAREAL",
-            "space":"12",
-            "subg":"XG32WCS"
         },
         {
             "group":"Other",
