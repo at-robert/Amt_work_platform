@@ -51,6 +51,12 @@
         },
         {
             "group":"FW3_2",
+            "name":"GTBM27UAIC",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_2",
             "name":"JVCTW50W2",
             "space":"16",
             "subg":""
