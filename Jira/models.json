@@ -20,12 +20,6 @@
             "subg":""
         },
         {
-            "group":"FW3_1",
-            "name":"VG32UQA1A",
-            "space":"16",
-            "subg":""
-        },
-        {
             "group":"FW3_2",
             "name":"XG32WCMS63",
             "space":"16",
@@ -57,31 +51,7 @@
         },
         {
             "group":"FW3_2",
-            "name":"JVCTW50W2",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"JVCTW55W2",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
             "name":"JVCTW65W2",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"JVCTW50TG2",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"JVCTW55TG2",
             "space":"16",
             "subg":""
         },

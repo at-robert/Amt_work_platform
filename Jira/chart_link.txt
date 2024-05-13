@@ -1,6 +1,13 @@
-FO32U     https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19930&periodName=daily&daysprevious=15&cumulative=true&versionLabels=all&selectedProjectId=19930&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
+FO32U     https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19930&periodName=daily&daysprevious=25&cumulative=true&versionLabels=all&selectedProjectId=19930&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
 M27UA     https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19905&periodName=daily&daysprevious=60&cumulative=true&versionLabels=all&selectedProjectId=19905&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
-M27QA     https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19904&periodName=daily&daysprevious=65&cumulative=true&versionLabels=all&selectedProjectId=19904&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
-XG32WCS   https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19901&periodName=daily&daysprevious=85&cumulative=true&versionLabels=all&selectedProjectId=19901&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
-XG32WCMS  https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19896&periodName=daily&daysprevious=110&cumulative=true&versionLabels=all&selectedProjectId=19896&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
+M27QA     https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19904&periodName=daily&daysprevious=70&cumulative=true&versionLabels=all&selectedProjectId=19904&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
+XG32WCS   https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19901&periodName=daily&daysprevious=90&cumulative=true&versionLabels=all&selectedProjectId=19901&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
+XG32WCMS  https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19896&periodName=daily&daysprevious=115&cumulative=true&versionLabels=all&selectedProjectId=19896&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
 M27QA ICE https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19932&periodName=daily&daysprevious=5&cumulative=true&versionLabels=all&selectedProjectId=19932&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
+MO32U     https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19915&periodName=daily&daysprevious=5&cumulative=true&versionLabels=all&selectedProjectId=19915&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
+
+
+
+
+MP Models :
+FO32U2P   https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19885&periodName=daily&daysprevious=200&cumulative=true&versionLabels=all&selectedProjectId=19885&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
