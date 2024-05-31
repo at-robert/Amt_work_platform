@@ -27,18 +27,6 @@
         },
         {
             "group":"FW3_2",
-            "name":"XG32WCMS63",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"XG32WCS",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
             "name":"GTBM27QAB",
             "space":"16",
             "subg":""
