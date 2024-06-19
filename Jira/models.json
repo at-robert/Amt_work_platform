@@ -27,18 +27,6 @@
         },
         {
             "group":"FW3_2",
-            "name":"GTBM27QAB",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
-            "name":"GTBM27UA",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_2",
             "name":"GTBM27UAIC",
             "space":"16",
             "subg":""
