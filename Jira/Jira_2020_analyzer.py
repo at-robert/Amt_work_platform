@@ -128,19 +128,34 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
             print_array.append("[{}] {} - {} [{}]".format(issue.fields.priority, str(issue).ljust(LJUST), issue.fields.summary,get_assignee_name(issue)))
 
             # jira statistics
-            if(tmp_str.startswith('[OSD]')):
+            # if(tmp_str.startswith('[OSD]')):
+            #     OSD_count = OSD_count + 1
+            # elif(tmp_str.startswith('[SYS]')):
+            #     SYS_count = SYS_count + 1
+            # elif(tmp_str.startswith('[AUDIO]')):
+            #     Audio_count = Audio_count + 1
+            # elif(tmp_str.startswith('[PQ]')):
+            #     PQ_count = PQ_count + 1
+            # elif(tmp_str.startswith('[VIDEO]')):
+            #     Video_count = Video_count + 1
+            # else:
+            #     Other_count = Other_count + 1
+            # ===================================== jira statistics END
+
+            # New jira statistics
+            if('[OSD]' in tmp_str):
                 OSD_count = OSD_count + 1
-            elif(tmp_str.startswith('[SYS]')):
+            elif('[SYS]' in tmp_str):
                 SYS_count = SYS_count + 1
-            elif(tmp_str.startswith('[AUDIO]')):
+            elif('[AUDIO]' in tmp_str):
                 Audio_count = Audio_count + 1
-            elif(tmp_str.startswith('[PQ]')):
+            elif('[PQ]' in tmp_str):
                 PQ_count = PQ_count + 1
-            elif(tmp_str.startswith('[VIDEO]')):
+            elif('[VIDEO]' in tmp_str):
                 Video_count = Video_count + 1
             else:
                 Other_count = Other_count + 1
-            # ===================================== jira statistics END
+            # ===================================== New jira statistics END
 
         else:
             issue_arry.append(issue)
