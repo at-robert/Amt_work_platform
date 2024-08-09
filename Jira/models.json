@@ -20,6 +20,12 @@
             "subg":""
         },
         {
+            "group":"FW3_1",
+            "name":"GTBMO27U2",
+            "space":"16",
+            "subg":""
+        },
+        {
             "group":"Other",
             "name":"GIGAREAL",
             "space":"12",
@@ -30,6 +36,12 @@
             "name":"GIGAREAL",
             "space":"12",
             "subg":"MO32U/MO27Q2"
+        },
+        {
+            "group":"Other",
+            "name":"GIGAREAL",
+            "space":"12",
+            "subg":"MO32U2G"
         }
     ]
 }
