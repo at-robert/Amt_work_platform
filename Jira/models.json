@@ -3,12 +3,6 @@
     [
         {
             "group":"FW3_1",
-            "name":"XG27ACDNG",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_1",
             "name":"GTBMO32U",
             "space":"16",
             "subg":""
@@ -24,12 +18,6 @@
             "name":"GTBMO27U2",
             "space":"16",
             "subg":""
-        },
-        {
-            "group":"Other",
-            "name":"GIGAREAL",
-            "space":"12",
-            "subg":"XG27ACDNG"
         },
         {
             "group":"Other",
