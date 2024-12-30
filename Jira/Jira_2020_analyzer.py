@@ -295,6 +295,9 @@ def jql_string_process(para_, project_key_):
     if para_ == 'a':
         jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved ORDER BY priority DESC, updated DESC'
         jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved ORDER BY priority DESC, updated DESC'  
+    elif para_ == 'ac':
+        jql_open_ = 'project = ' + project_key_ + ' ORDER BY priority DESC, updated DESC'
+        jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved ORDER BY priority DESC, updated DESC' 
     elif para_ == '':
         # jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component in (AUDIO, EE, PQ, SW, FW, PANEL) ORDER BY priority DESC, updated DESC'
         # jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component in (AUDIO, EE, PQ, SW, FW, PANEL) ORDER BY priority DESC, updated DESC'
