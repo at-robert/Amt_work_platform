@@ -102,6 +102,7 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
     PQ_count = 0
     Video_count = 0
     Other_count = 0
+    Spec_count = 0
 
     # for issue in all_proj_issues:
     # # print out the raw data of the all fields
@@ -155,6 +156,9 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
                 Video_count = Video_count + 1
             else:
                 Other_count = Other_count + 1
+
+            if('[SPEC]' in tmp_str):
+                Spec_count = Spec_count + 1
             # ===================================== New jira statistics END
 
         else:
@@ -162,7 +166,7 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
         # print "[%s] %s - %s" %(issue.fields.priority, issue, issue.fields.summary)
 
 
-    print ("[Opening Issues] {}A {}B {}C, Total = {}".format(A_Cout, B_Cout, C_Cout, A_Cout+B_Cout+C_Cout))
+    print ("[Opening Issues] {:0>2d}A {:0>2d}B {:0>2d}C, Total = {:0>2d}".format(A_Cout, B_Cout, C_Cout, A_Cout+B_Cout+C_Cout))
     for item in print_array:
         print( item )
         # print(item.encode("utf8").decode("cp950", "ignore"))
@@ -171,7 +175,7 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
 
     # jira statistics
     total_c = OSD_count + SYS_count + Audio_count + PQ_count + Video_count + Other_count
-    print ("{} => [JIRA Statistics] OSD = {} , SYS = {} , Audio = {} , PQ = {} , VIDEO = {}, Other = {} , total = {} ".format(proj_name,OSD_count,SYS_count,Audio_count,PQ_count,Video_count,Other_count,total_c))
+    print ("{} => [JIRA Statistics] OSD = {:0>2d} , SYS = {:0>2d} , Audio = {:0>2d} , PQ = {:0>2d} , VIDEO = {:0>2d}, Other = {:0>2d} (Spec = {:0>2d}), total = {:0>2d} ".format(proj_name,OSD_count,SYS_count,Audio_count,PQ_count,Video_count,Other_count,Spec_count,total_c))
     print (" ")
 
 
@@ -207,7 +211,7 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
             issue_resolved_arry.append(issue)
 
 
-    print ("[Resolved Issues] {}A {}B {}C, Total = {}".format(A_Cout, B_Cout, C_Cout, A_Cout+B_Cout+C_Cout))
+    print ("[Resolved Issues] {:0>2d}A {:0>2d}B {:0>2d}C, Total = {:0>2d}".format(A_Cout, B_Cout, C_Cout, A_Cout+B_Cout+C_Cout))
     for item in print_array:
         print( item )
         # print(item.encode("utf8").decode("cp950", "ignore"))
