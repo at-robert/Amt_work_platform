@@ -1,24 +1,6 @@
 {
     "models":
-    [
-        {
-            "group":"FW3_1",
-            "name":"GTBMO27U2",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_1",
-            "name":"ASUSEGG21",
-            "space":"16",
-            "subg":""
-        },       
-        {
-            "group":"FW3_1",
-            "name":"ASUSSTONE",
-            "space":"16",
-            "subg":""
-        },        
+    [      
         {
             "group":"FW3_2",
             "name":"VG27AUO138",
@@ -35,13 +17,7 @@
             "group":"Other",
             "name":"GIGAREAL",
             "space":"12",
-            "subg":"MO27U2"
-        },
-        {
-            "group":"Other",
-            "name":"GIGAREAL",
-            "space":"12",
-            "subg":"EGG STONE"
+            "subg":"VG27AQM5A"
         }
     ]
 }
