@@ -119,11 +119,11 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
         # Special Word Filter
         tmp_str = str(issue.fields.summary)
         if(tmp_str.startswith(speical_word) == False):
-            if(pStr == 'A'):
+            if(pStr == 'Highest'):
                 A_Cout = A_Cout + 1
-            elif(pStr == 'B'):
+            elif(pStr == 'High'):
                 B_Cout = B_Cout + 1
-            elif(pStr == 'C'):
+            elif(pStr == 'Medium'):
                 C_Cout = C_Cout + 1
 
             # print ("[{}] {} - {} [{}]".format(issue.fields.priority, str(issue).ljust(LJUST), issue.fields.summary,get_assignee_name(issue)))
@@ -199,11 +199,11 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
         # Special Word Filter
         tmp_str = str(issue.fields.summary)
         if(tmp_str.startswith(speical_word) == False):
-            if(pStr == 'A'):
+            if(pStr == 'Highest'):
                 A_Cout = A_Cout + 1
-            elif(pStr == 'B'):
+            elif(pStr == 'High'):
                 B_Cout = B_Cout + 1
-            elif(pStr == 'C'):
+            elif(pStr == 'Medium'):
                 C_Cout = C_Cout + 1
 
             # print ("[{}] {} - {} [{}]".format(issue.fields.priority, str(issue).ljust(LJUST), issue.fields.summary, get_assignee_name(issue)))
@@ -228,11 +228,11 @@ def print_jira_status(jira, jql_open, jql_resolved, proj_name, para_,speical_wor
 
         for issue in issue_arry:
             pStr = str(issue.fields.priority)
-            if(pStr == 'A'):
+            if(pStr == 'Highest'):
                 A_Cout = A_Cout + 1
-            elif(pStr == 'B'):
+            elif(pStr == 'High'):
                 B_Cout = B_Cout + 1
-            elif(pStr == 'C'):
+            elif(pStr == 'Medium'):
                 C_Cout = C_Cout + 1
 
             print ("[{}] {} - {} [{}]".format(issue.fields.priority, str(issue).ljust(LJUST), issue.fields.summary, get_assignee_name(issue)))
@@ -298,22 +298,24 @@ def jql_string_process(para_, project_key_):
     jql_resolved_ = ''
 
     if para_ == 'a':
-        jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved ORDER BY priority DESC, updated DESC'
-        jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved ORDER BY priority DESC, updated DESC'  
+        # jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved ORDER BY priority DESC, updated DESC'
+        # jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved ORDER BY priority DESC, updated DESC' 
+        jql_open_ = 'project = ' + project_key_ + ' AND status != Done ORDER BY priority DESC, updated DESC'
+        jql_resolved_ = 'project = ' + project_key_ + ' AND status = Done ORDER BY priority DESC, updated DESC'
+         
     elif para_ == 'ac':
         jql_open_ = 'project = ' + project_key_ + ' ORDER BY priority DESC, updated DESC'
         jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved ORDER BY priority DESC, updated DESC' 
     elif para_ == '':
-        # jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component in (AUDIO, EE, PQ, SW, FW, PANEL) ORDER BY priority DESC, updated DESC'
-        # jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component in (AUDIO, EE, PQ, SW, FW, PANEL) ORDER BY priority DESC, updated DESC'
-
-        jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component in (AUDIO, EE, PQ, SW, FW) ORDER BY priority DESC, updated DESC'
-        jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component in (AUDIO, EE, PQ, SW, FW) ORDER BY priority DESC, updated DESC'
+        # jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component in (AUDIO, EE, PQ, SW, FW) ORDER BY priority DESC, updated DESC'
+        # jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component in (AUDIO, EE, PQ, SW, FW) ORDER BY priority DESC, updated DESC'
+        jql_open_ = 'project = ' + project_key_ + ' AND status != Done ORDER BY priority DESC, updated DESC'
+        jql_resolved_ = 'project = ' + project_key_ + ' AND status = Done ORDER BY priority DESC, updated DESC'
     else:
-        # jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component in (' + para_ + ') ORDER BY priority DESC, updated DESC'
-        # jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component in (' + para_ + ') ORDER BY priority DESC, updated DESC'
-        jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component = ' + '"' + para_ + '"' + ' ORDER BY priority DESC, updated DESC'
-        jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component = ' + '"' + para_ + '"' + ' ORDER BY priority DESC, updated DESC'
+        # jql_open_ = 'project = ' + project_key_ + ' AND resolution = Unresolved AND component = ' + '"' + para_ + '"' + ' ORDER BY priority DESC, updated DESC'
+        # jql_resolved_ = 'project = ' + project_key_ + ' AND status = Resolved  AND component = ' + '"' + para_ + '"' + ' ORDER BY priority DESC, updated DESC'
+        jql_open_ = 'project = ' + project_key_ + ' AND status != Done ORDER BY priority DESC, updated DESC'
+        jql_resolved_ = 'project = ' + project_key_ + ' AND status = Done ORDER BY priority DESC, updated DESC'
 
     # print(" jql_open_ = " + jql_open_)
 
