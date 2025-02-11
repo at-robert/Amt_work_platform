@@ -14,10 +14,22 @@
             "subg":""
         },
         {
+            "group":"FW3_2",
+            "name":"TELLY551",
+            "space":"16",
+            "subg":""
+        },
+        {
             "group":"Other",
             "name":"GIGAREAL",
             "space":"12",
             "subg":"VG27AQM5A"
+        },
+        {
+            "group":"Other",
+            "name":"NOVATEK",
+            "space":"12",
+            "subg":"MAG272UP_X24"
         }
     ]
 }
