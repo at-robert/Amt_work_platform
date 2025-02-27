@@ -9,21 +9,9 @@
         }, 
         {
             "group":"FW3_2",
-            "name":"VG27AUO138",
+            "name":"VG27AQML5A",
             "space":"16",
             "subg":""
-        },        
-        {
-            "group":"FW3_2",
-            "name":"VG27BOENF8",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"Other",
-            "name":"GIGAREAL",
-            "space":"12",
-            "subg":"VG27AQM5A"
         },
         {
             "group":"Other",
