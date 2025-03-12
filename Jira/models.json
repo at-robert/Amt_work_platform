@@ -8,6 +8,24 @@
             "subg":""
         }, 
         {
+            "group":"FW3_1",
+            "name":"PG32UCDMR",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_1",
+            "name":"XG27AQDPG",
+            "space":"16",
+            "subg":""
+        },
+        {
+            "group":"FW3_1",
+            "name":"MAG272QX50",
+            "space":"16",
+            "subg":""
+        },
+        {
             "group":"FW3_2",
             "name":"VG27AQML5A",
             "space":"16",
