@@ -6,6 +6,7 @@ import time
 import io
 import platform
 import pandas as pd
+import shutil
 
 from pptx import Presentation
 from pptx.util import Inches, Pt
@@ -109,6 +110,12 @@ def check_if_png_exist(prj_name_):
     else:
         return os.path.exists(FILE_PATH_JIRA_PIC + prj_name_ + '.png')
 
+#----------------------------------------------------------------------
+def copy_temp_to_proj(prj_name_):
+    if (platform.system() == 'Darwin'):
+        shutil.copy(FILE_PATH_JIRA_PIC_MAC + 'temp.png', FILE_PATH_JIRA_PIC_MAC + prj_name_ + '.png')
+    else:
+        shutil.copy(FILE_PATH_JIRA_PIC + 'temp.png', FILE_PATH_JIRA_PIC + prj_name_ + '.png')
 
 #----------------------------------------------------------------------
 if __name__ == "__main__":
@@ -128,6 +135,11 @@ if __name__ == "__main__":
         prj_name = row['Model']
         list_ = row.values.flatten().tolist()[1:]
 
+        print(" Project Name = {}".format(prj_name))
+
+        if ( check_if_png_exist(prj_name) == False ):
+            copy_temp_to_proj(prj_name)
+        
         # Only .png exist would generate the report
         if ( check_if_png_exist(prj_name) ):
             add_slide(prs, title_only_slide_layout, prj_name + time.strftime("%c"), list_, prj_name + '.png')

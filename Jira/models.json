@@ -32,6 +32,12 @@
             "subg":""
         },
         {
+            "group":"FW3_2",
+            "name":"ASVG27L5A",
+            "space":"16",
+            "subg":""
+        },
+        {
             "group":"Other",
             "name":"NOVATEK",
             "space":"12",
