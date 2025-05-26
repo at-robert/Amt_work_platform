@@ -8,30 +8,6 @@
             "subg":""
         }, 
         {
-            "group":"FW3_1",
-            "name":"PG32UCDMR",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_1",
-            "name":"XG27AQDPG",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"FW3_1",
-            "name":"MAG272QX50",
-            "space":"16",
-            "subg":""
-        },
-        {
-            "group":"Other",
-            "name":"NOVATEK",
-            "space":"12",
-            "subg":"MAG272QP_X50"
-        },
-        {
             "group":"Other",
             "name":"GIGAREAL",
             "space":"12",
