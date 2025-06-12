@@ -1,7 +1,9 @@
-MAG272QX50       start 'https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19968&periodName=daily&daysprevious=70&cumulative=true&versionLabels=all&selectedProjectId=19968&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode='
+
+XG27AQDNG        start 'https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-20660&periodName=daily&daysprevious=30&cumulative=true&versionLabels=all&selectedProjectId=20660&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode='
 
 MP Models :
 FO27Q5P          https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-20231&periodName=daily&daysprevious=70&cumulative=true&versionLabels=all&selectedProjectId=20231&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
+MAG272QX50       https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-19968&periodName=daily&daysprevious=70&cumulative=true&versionLabels=all&selectedProjectId=19968&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
 PG32UCDMR        https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-20297&periodName=daily&daysprevious=70&cumulative=true&versionLabels=all&selectedProjectId=20297&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
 XG27AQDPG        https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-20067&periodName=daily&daysprevious=70&cumulative=true&versionLabels=all&selectedProjectId=20067&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
 VG27AQML5A-W     https://amtran.atlassian.net/secure/ConfigureReport.jspa?projectOrFilterId=project-20330&periodName=daily&daysprevious=40&cumulative=true&versionLabels=all&selectedProjectId=20330&reportKey=com.atlassian.jira.plugin.system.reports%3Acreatedvsresolved-report&Next=Next&darkMode=
